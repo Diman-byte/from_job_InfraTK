@@ -1,0 +1,264 @@
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.exe
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.deps.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.runtimeconfig.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cassandra.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\NCalc.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\RestSharp.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Common.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\HistoryDB.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Common.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\HistoryDB.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.AssemblyReference.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\ConnectDialog.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4_MarkupCompile.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4_MarkupCompile.lref
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\ConnectDialog.baml
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.g.resources
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.AssemblyInfoInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.AssemblyInfo.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.CoreCompileInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.CopyComplete
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\refint\Cas_1.4.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.genruntimeconfig.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\ref\Cas_1.4.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\Test_for_edu.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\Test_for_edu.baml
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.exe
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.deps.json
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.runtimeconfig.json
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.pdb
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cassandra.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\NCalc.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\RestSharp.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Common.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\HistoryDB.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Common.pdb
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\HistoryDB.pdb
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.AssemblyReference.cache
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\ConnectDialog.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4_MarkupCompile.cache
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4_MarkupCompile.lref
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\ConnectDialog.baml
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.g.resources
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.AssemblyInfoInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.AssemblyInfo.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.CoreCompileInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.sourcelink.json
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.CopyComplete
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\refint\Cas_1.4.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.pdb
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.genruntimeconfig.cache
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\ref\Cas_1.4.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryInitializeHistDBColumns.baml
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryInitializeHistDBColumns.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\HistDataQueryWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\HistDataQueryWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\CreateKeySpaceWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\CreateKeySpaceWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TruncateNodeTablesWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TruncateNodeTablesWindow.baml
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.exe
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.deps.json
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.runtimeconfig.json
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.pdb
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cassandra.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\NCalc.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\RestSharp.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Common.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\HistoryDB.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Common.pdb
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\HistoryDB.pdb
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.AssemblyReference.cache
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\CreateKeySpaceWindow.baml
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryInitializeHistDBColumns.baml
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\ConnectDialog.g.cs
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\CreateKeySpaceWindow.g.cs
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\HistDataQueryWindow.g.cs
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataWindow.g.cs
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TruncateNodeTablesWindow.g.cs
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryDropNodeTables.g.cs
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryInitializeHistDBColumns.g.cs
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4_MarkupCompile.cache
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4_MarkupCompile.lref
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\ConnectDialog.baml
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\HistDataQueryWindow.baml
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataWindow.baml
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TruncateNodeTablesWindow.baml
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryDropNodeTables.baml
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.g.resources
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.AssemblyInfoInputs.cache
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.AssemblyInfo.cs
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.CoreCompileInputs.cache
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.sourcelink.json
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.Up2Date
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\refint\Cas_1.4.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.pdb
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.genruntimeconfig.cache
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\ref\Cas_1.4.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryDropNodeTables.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryDropNodeTables.baml
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.AssemblyReference.cache
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\CreateKeySpaceWindow.baml
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryInitializeHistDBColumns.baml
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\ConnectDialog.g.cs
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\CreateKeySpaceWindow.g.cs
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\HistDataQueryWindow.g.cs
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataWindow.g.cs
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TruncateNodeTablesWindow.g.cs
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryDropNodeTables.g.cs
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryInitializeHistDBColumns.g.cs
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4_MarkupCompile.cache
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4_MarkupCompile.lref
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\refint\Cas_1.4.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.pdb
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.exe
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.deps.json
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.runtimeconfig.json
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.pdb
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cassandra.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\NCalc.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\RestSharp.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Common.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\HistoryDB.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Common.pdb
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\HistoryDB.pdb
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\ConnectDialog.baml
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\HistDataQueryWindow.baml
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataWindow.baml
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TruncateNodeTablesWindow.baml
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryDropNodeTables.baml
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.g.resources
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.AssemblyInfoInputs.cache
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.AssemblyInfo.cs
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.CoreCompileInputs.cache
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.Up2Date
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.genruntimeconfig.cache
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\ref\Cas_1.4.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataAsyncWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataAsyncWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.exe
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.deps.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.runtimeconfig.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cas_1.4.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Cassandra.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\NCalc.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\RestSharp.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Management.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Common.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\HistoryDB.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\Common.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\bin\Debug\net6.0-windows\HistoryDB.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.AssemblyReference.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\CreateKeySpaceWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryInitializeHistDBColumns.baml
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\ConnectDialog.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\CreateKeySpaceWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\HistDataQueryWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataAsyncWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TruncateNodeTablesWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryDropNodeTables.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryInitializeHistDBColumns.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4_MarkupCompile.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4_MarkupCompile.lref
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\ConnectDialog.baml
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\HistDataQueryWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataAsyncWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TruncateNodeTablesWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TryDropNodeTables.baml
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.g.resources
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.AssemblyInfoInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.AssemblyInfo.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.CoreCompileInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.sourcelink.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.csproj.CopyComplete
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\refint\Cas_1.4.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.genruntimeconfig.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\ref\Cas_1.4.dll

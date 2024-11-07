@@ -1,0 +1,85 @@
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\HistoryDB.deps.json
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\HistoryDB.dll
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\HistoryDB.pdb
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\Common.dll
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\Common.pdb
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.AssemblyReference.cache
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.AssemblyInfoInputs.cache
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.AssemblyInfo.cs
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.CoreCompileInputs.cache
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.CopyComplete
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.dll
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\refint\HistoryDB.dll
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.pdb
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\ref\HistoryDB.dll
+C:\ITORUM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\HistoryDB.deps.json
+C:\ITORUM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\HistoryDB.dll
+C:\ITORUM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\HistoryDB.pdb
+C:\ITORUM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\Common.dll
+C:\ITORUM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\Common.pdb
+C:\ITORUM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.AssemblyReference.cache
+C:\ITORUM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\ITORUM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.AssemblyInfoInputs.cache
+C:\ITORUM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.AssemblyInfo.cs
+C:\ITORUM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.CoreCompileInputs.cache
+C:\ITORUM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.CopyComplete
+C:\ITORUM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.dll
+C:\ITORUM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\refint\HistoryDB.dll
+C:\ITORUM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.pdb
+C:\ITORUM\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\ref\HistoryDB.dll
+C:\ITORUM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\ConfigDB.dll
+C:\ITORUM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\ConfigDB.pdb
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\ConfigDB.dll
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\ConfigDB.pdb
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\bin\Release\net6.0\HistoryDB.deps.json
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\bin\Release\net6.0\HistoryDB.dll
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\bin\Release\net6.0\HistoryDB.pdb
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\bin\Release\net6.0\Common.dll
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\bin\Release\net6.0\ConfigDB.dll
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\bin\Release\net6.0\Common.pdb
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\bin\Release\net6.0\ConfigDB.pdb
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.AssemblyReference.cache
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\obj\Release\net6.0\HistoryDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\obj\Release\net6.0\HistoryDB.AssemblyInfoInputs.cache
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\obj\Release\net6.0\HistoryDB.AssemblyInfo.cs
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.CoreCompileInputs.cache
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.CopyComplete
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\obj\Release\net6.0\HistoryDB.dll
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\obj\Release\net6.0\refint\HistoryDB.dll
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\obj\Release\net6.0\HistoryDB.pdb
+C:\ITORUM\PredictiveAnalytics_\HistoryDB\obj\Release\net6.0\ref\HistoryDB.dll
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\HistoryDB.deps.json
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\HistoryDB.dll
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\HistoryDB.pdb
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\Common.dll
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\ConfigDB.dll
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\Common.pdb
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\ConfigDB.pdb
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.AssemblyReference.cache
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.AssemblyInfoInputs.cache
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.AssemblyInfo.cs
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.CoreCompileInputs.cache
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.CopyComplete
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.dll
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\refint\HistoryDB.dll
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.pdb
+C:\TERRALINK\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\ref\HistoryDB.dll
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\HistoryDB.deps.json
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\HistoryDB.dll
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\HistoryDB.pdb
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\Common.dll
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\ConfigDB.dll
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\Common.pdb
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\bin\Release\net6.0\ConfigDB.pdb
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.AssemblyReference.cache
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.AssemblyInfoInputs.cache
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.AssemblyInfo.cs
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.CoreCompileInputs.cache
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.csproj.CopyComplete
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.dll
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\refint\HistoryDB.dll
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\HistoryDB.pdb
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\HistoryDB\obj\Release\net6.0\ref\HistoryDB.dll

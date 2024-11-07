@@ -1,0 +1,20 @@
+﻿Cas_1.4
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Dmitriy.Simonov\Desktop\Projects from work\WPF Interface for Cassandra\Cas_1.4\obj\Debug\net6.0-windows\
+Cas_1._4
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\Dmitriy.Simonov\Desktop\Projects from work\WPF Interface for Cassandra\Cas_1.4\App.xaml
+9-1809035878
+
+16-1565680553
+2051603733118
+MainWindow.xaml;Views\ConnectDialog.xaml;Views\CreateKeySpaceWindow.xaml;Views\HistDataQueryWindow.xaml;Views\InsertDataAsyncWindow.xaml;Views\InsertDataWindow.xaml;Views\TruncateNodeTablesWindow.xaml;Views\TryDropNodeTables.xaml;Views\TryInitializeHistDBColumns.xaml;
+
+False
+

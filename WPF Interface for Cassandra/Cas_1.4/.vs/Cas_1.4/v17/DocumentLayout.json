@@ -1,0 +1,340 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\views\\insertdatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\insertdatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59135E61-1053-4FB2-9252-A6F504C60924}|..\\HistoryDB\\HistoryDB.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\historydb\\cassandrahistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\views\\createkeyspacewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\createkeyspacewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\views\\createkeyspacewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\createkeyspacewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\views\\trydropnodetables.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\trydropnodetables.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\views\\trydropnodetables.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\trydropnodetables.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\views\\truncatenodetableswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\truncatenodetableswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\views\\truncatenodetableswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\truncatenodetableswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\views\\insertdatawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\insertdatawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\views\\histdataquerywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\histdataquerywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\views\\tryinitializehistdbcolumns.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\tryinitializehistdbcolumns.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\views\\tryinitializehistdbcolumns.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\tryinitializehistdbcolumns.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\views\\histdataquerywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\histdataquerywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\viewmodels\\insertdatawindowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:viewmodels\\insertdatawindowmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\viewmodels\\histdataquerywindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:viewmodels\\histdataquerywindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\proj\\sosa_2\\cas_1.4\\views\\connectdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\connectdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Common\\NameValView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\HistoryDB\\CassandraHistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 230,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CassandraHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\HistoryDB\\CassandraHistory.cs",
+              "RelativeDocumentMoniker": "..\\HistoryDB\\CassandraHistory.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\HistoryDB\\CassandraHistory.cs",
+              "RelativeToolTip": "..\\HistoryDB\\CassandraHistory.cs",
+              "ViewState": "AQIAAN8CAAAAAAAAAAAwwOYCAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:13:05.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:45:18.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TruncateNodeTablesWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\TruncateNodeTablesWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\TruncateNodeTablesWindow.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\TruncateNodeTablesWindow.xaml",
+              "RelativeToolTip": "Views\\TruncateNodeTablesWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-11T08:45:18.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InsertDataWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\InsertDataWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\InsertDataWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\InsertDataWindow.xaml.cs",
+              "RelativeToolTip": "Views\\InsertDataWindow.xaml.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwC0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:45:18.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateKeySpaceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\CreateKeySpaceWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\CreateKeySpaceWindow.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\CreateKeySpaceWindow.xaml",
+              "RelativeToolTip": "Views\\CreateKeySpaceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-11T08:45:18.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TryDropNodeTables.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\TryDropNodeTables.xaml",
+              "RelativeDocumentMoniker": "Views\\TryDropNodeTables.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\TryDropNodeTables.xaml",
+              "RelativeToolTip": "Views\\TryDropNodeTables.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-11T08:51:15.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TruncateNodeTablesWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\TruncateNodeTablesWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TruncateNodeTablesWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\TruncateNodeTablesWindow.xaml.cs",
+              "RelativeToolTip": "Views\\TruncateNodeTablesWindow.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:45:18.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NameValView.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Common\\NameValView.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Our project\\infra\\sosa_2\\Common\\NameValView.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Common\\NameValView.cs",
+              "RelativeToolTip": "..\\..\\..\\Our project\\infra\\sosa_2\\Common\\NameValView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:45:18.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CassandraHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\HistoryDB\\CassandraHistory.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Our project\\infra\\sosa_2\\HistoryDB\\CassandraHistory.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\HistoryDB\\CassandraHistory.cs",
+              "RelativeToolTip": "..\\..\\..\\Our project\\infra\\sosa_2\\HistoryDB\\CassandraHistory.cs",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAwOkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:45:18.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InsertDataWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\InsertDataWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\InsertDataWindow.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\InsertDataWindow.xaml",
+              "RelativeToolTip": "Views\\InsertDataWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-11T08:45:18.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TryInitializeHistDBColumns.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\TryInitializeHistDBColumns.xaml",
+              "RelativeDocumentMoniker": "Views\\TryInitializeHistDBColumns.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\TryInitializeHistDBColumns.xaml",
+              "RelativeToolTip": "Views\\TryInitializeHistDBColumns.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-11T08:45:18.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HistDataQueryWindow.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\ViewModels\\HistDataQueryWindow.cs",
+              "RelativeDocumentMoniker": "ViewModels\\HistDataQueryWindow.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\ViewModels\\HistDataQueryWindow.cs",
+              "RelativeToolTip": "ViewModels\\HistDataQueryWindow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:45:18.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HistDataQueryWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\HistDataQueryWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\HistDataQueryWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\HistDataQueryWindow.xaml.cs",
+              "RelativeToolTip": "Views\\HistDataQueryWindow.xaml.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAYwE8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:45:18.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TryInitializeHistDBColumns.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\TryInitializeHistDBColumns.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TryInitializeHistDBColumns.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\TryInitializeHistDBColumns.xaml.cs",
+              "RelativeToolTip": "Views\\TryInitializeHistDBColumns.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwC0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:45:18.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HistDataQueryWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\HistDataQueryWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\HistDataQueryWindow.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\HistDataQueryWindow.xaml",
+              "RelativeToolTip": "Views\\HistDataQueryWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-11T08:45:18.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InsertDataWindowModel.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\ViewModels\\InsertDataWindowModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\InsertDataWindowModel.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\ViewModels\\InsertDataWindowModel.cs",
+              "RelativeToolTip": "ViewModels\\InsertDataWindowModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:45:18.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConnectDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\ConnectDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ConnectDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\ConnectDialog.xaml.cs",
+              "RelativeToolTip": "Views\\ConnectDialog.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:45:18.617Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 230,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateKeySpaceWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\CreateKeySpaceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\CreateKeySpaceWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\CreateKeySpaceWindow.xaml.cs",
+              "RelativeToolTip": "Views\\CreateKeySpaceWindow.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:45:18.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-11T08:45:18.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TryDropNodeTables.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\TryDropNodeTables.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TryDropNodeTables.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Cas_1.4\\Views\\TryDropNodeTables.xaml.cs",
+              "RelativeToolTip": "Views\\TryDropNodeTables.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAowB4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:51:45.15Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\Common\bin\Debug\netstandard2.0\Common.dll
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.csproj.AssemblyReference.cache
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.dll
+C:\DATA ANALYTICS\TRM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.pdb
+C:\ITORUM\PredictiveAnalytics\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\ITORUM\PredictiveAnalytics\Common\bin\Debug\netstandard2.0\Common.dll
+C:\ITORUM\PredictiveAnalytics\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\ITORUM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.csproj.AssemblyReference.cache
+C:\ITORUM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\ITORUM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\ITORUM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\ITORUM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\ITORUM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.dll
+C:\ITORUM\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.pdb
+C:\TERRALINK\PredictiveAnalytics\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\TERRALINK\PredictiveAnalytics\Common\bin\Debug\netstandard2.0\Common.dll
+C:\TERRALINK\PredictiveAnalytics\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\TERRALINK\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.csproj.AssemblyReference.cache
+C:\TERRALINK\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\TERRALINK\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\TERRALINK\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\TERRALINK\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\TERRALINK\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.dll
+C:\TERRALINK\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.pdb
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\Common\bin\Debug\netstandard2.0\Common.dll
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.csproj.AssemblyReference.cache
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.dll
+C:\TERRALINK Predictive Analytics\PredictiveAnalytics\Common\obj\Debug\netstandard2.0\Common.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Common\obj\Debug\netstandard2.0\Common.csproj.AssemblyReference.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Common\obj\Debug\netstandard2.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Common\obj\Debug\netstandard2.0\Common.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\Common\obj\Debug\netstandard2.0\Common.pdb
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.csproj.AssemblyReference.cache
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.sourcelink.json
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.dll
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.pdb
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Common\obj\Debug\netstandard2.0\Common.csproj.AssemblyReference.cache
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Common\obj\Debug\netstandard2.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Common\obj\Debug\netstandard2.0\Common.dll
+C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Common\obj\Debug\netstandard2.0\Common.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.csproj.AssemblyReference.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.sourcelink.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\sosa_2\что-то еще\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.pdb

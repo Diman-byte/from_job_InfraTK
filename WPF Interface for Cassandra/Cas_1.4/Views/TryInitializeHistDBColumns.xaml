@@ -1,0 +1,31 @@
+﻿<Window x:Class="Cas_1._4.Views.InitializeHistDBColumnsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Initialize HistDB Columns" Height="300" Width="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Метка и поле ввода для названия базы данных -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5">
+            <TextBlock Text="Название базы данных:"/>
+            <TextBox x:Name="DatabaseNameTextBox" Margin="5" Width="167" Height="17"/>
+        </StackPanel>
+
+        <!-- Метка и поле ввода для списка идентификаторов узлов -->
+        <StackPanel Grid.Row="1" Margin="5">
+            <TextBlock Text="Список идентификаторов узлов (разделенных запятой):"/>
+            <TextBox x:Name="NodeIdsTextBox" Margin="5" Height="100" TextWrapping="Wrap"/>
+        </StackPanel>
+
+        <!-- Кнопка для инициализации столбцов -->
+        <Button Content="Инициализировать столбцы" Grid.Row="2" Click="InitializeHistDBColumns_Click" Margin="5"/>
+
+        <!-- Метка для отображения результата -->
+        <TextBlock x:Name="ResultTextBox" Grid.Row="3" Margin="5" TextWrapping="Wrap" />
+    </Grid>
+</Window>
