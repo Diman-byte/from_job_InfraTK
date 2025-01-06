@@ -1,0 +1,118 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:vm="using:Workstation.ViewModels"
+		Width="550"
+		Height="375"
+        mc:Ignorable="d"
+        x:Class="Workstation.LaunchWindow"
+        Title="Workstation"
+		CanResize="False"
+		WindowStartupLocation="CenterScreen"
+		x:DataType="vm:LaunchWindowViewModel">
+
+	<!--Avalonia требует явного указания типа данных (DataType) для привязки,
+	чтобы компилятор мог правильно анализировать привязки.-->
+	<!--x:DataType="vm:LaunchWindowViewModel" указывает тип ViewModel,
+	с которым работает это окно.-->
+	
+	<Design.DataContext>
+		<vm:LaunchWindowViewModel/>
+	</Design.DataContext>
+
+	<Grid RowDefinitions="*,Auto,Auto,Auto,Auto">
+		<Grid Grid.Row="0" ColumnDefinitions="*,*">
+			<Label Grid.Column="0" Classes="InfraLogo" />
+			<Image Grid.Column="1" Classes="InfraLogo" />
+		</Grid>
+
+		<!--Padding="20" Задаёт внутренние отступы вокруг содержимого Label.
+В данном случае отступы будут 20 пикселей со всех сторон: сверху, снизу, слева и справа.-->
+		<!--отличия padding и margin-->
+		<!--Padding (внутренний отступ) Описание: Отступ внутри элемента, между его границей и содержимым.
+Пример использования: Если у элемента есть текст, Padding создаёт пространство между текстом и границей элемента (например, рамкой).-->
+		<!--Margin (внешний отступ)Описание: Отступ снаружи элемента, между этим элементом и другими элементами.
+Пример использования: Создаёт пространство между элементом и его соседями в родительском контейнере-->
+		<Label
+            Grid.Row="1"
+            Padding="20"
+            HorizontalAlignment="Center"
+            Content="АРМ"
+            FontSize="30"
+            FontWeight="Bold"
+            Foreground="White" />
+
+		<!--Margin="10,10,10,10" Устанавливает внешний отступ со всех сторон в 10 пикселей.-->
+		<!--MinHeight="25" — минимальная высота текстового поля составляет 25 пикселей.-->
+		<!--Mode=TwoWay означает, что данные синхронизируются в обоих направлениях: изменения в поле будут обновлять Login, и наоборот.-->
+		<!--Text="{Binding Login, Mode=TwoWay}" Привязывает содержимое текстового поля к свойству Login в контексте данных (ViewModel).-->
+		<!--PasswordChar="*" Все вводимые символы отображаются звёздочками (*), чтобы скрыть пароль.-->
+		<!--Привязывает состояние чекбокса (включён/выключен) к свойству IsSavePass в контексте данных (ViewModel).-->
+		<Grid
+            Grid.Row="2"		
+            Margin="10,10,10,10"
+            ColumnDefinitions="Auto,*,Auto"
+            RowDefinitions="Auto,Auto,Auto">
+			<TextBlock
+                Grid.Row="1"
+                Grid.Column="0"
+                Margin="0,10,0,0"
+                VerticalAlignment="Center"
+                FontWeight="Bold"
+                Text="Логин:" />
+			<TextBox
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="0,10,0,0"
+				Padding="0"
+                Height="25"
+                Text="{Binding Login, Mode=TwoWay}" />
+			<TextBlock
+                Grid.Row="2"
+                Grid.Column="0"
+                Margin="0,10,0,0"
+                VerticalAlignment="Center"
+                Text="Пароль: "
+                FontWeight="Bold" />
+			<TextBox
+                Grid.Row="2"
+                Grid.Column="1"
+                Margin="0,10,0,0"
+                Padding="0"
+                Height="25"
+                Text="{Binding Password, Mode=TwoWay}"
+                PasswordChar="*"
+               />
+
+			<CheckBox
+                Grid.Row="2"
+                Grid.Column="2"
+                Margin="5,11,0,0"
+				IsChecked="{Binding IsSavePass, Mode=TwoWay}">
+				<TextBlock Text="Сохранить"
+                           FontWeight="Bold" />
+			</CheckBox>
+
+		</Grid>
+
+		<!--Устанавливает минимальную ширину кнопки. 
+		Даже если содержимое кнопки меньше, она не будет уже 100 пикселей.-->
+		<!--Mode=OneTime: Указывает, что привязка происходит только один раз при создании элемента. Это подходит, 
+если команда не меняется в течение жизненного цикла кнопки-->
+		<Button
+            Grid.Row="4"
+            MinWidth="100"
+            Margin="0,15,0,15"
+            HorizontalAlignment="Center"
+            HorizontalContentAlignment="Center"
+            VerticalContentAlignment="Center"
+            Content="ВХОД"
+            Command="{Binding AuthUserCommand, Mode=OneTime}"
+            
+            FontWeight="Bold" />
+		
+		
+	</Grid>
+	
+</Window>

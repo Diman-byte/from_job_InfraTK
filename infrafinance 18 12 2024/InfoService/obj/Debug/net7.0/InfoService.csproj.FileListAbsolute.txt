@@ -1,0 +1,194 @@
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\appsettings.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\InfoService.exe
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\InfoService.deps.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\InfoService.runtimeconfig.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\InfoService.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\InfoService.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Cassandra.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\ClickHouse.Client.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\NCalc.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.AspNetCore.Server.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.AspNetCore.Server.Reflection.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.Core.Api.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.Net.Client.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.Net.Common.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.Reflection.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Http.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\NodaTime.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Npgsql.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\RestSharp.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\System.Management.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Common.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Common.Services.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\ConfigDB.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\DataBase.Entities.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\DataBase.Models.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\HistoryDB.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Common.Services.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\Common.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\DataBase.Entities.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\HistoryDB.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\ConfigDB.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\bin\Debug\net7.0\DataBase.Models.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.csproj.AssemblyReference.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.AssemblyInfoInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.AssemblyInfo.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.csproj.CoreCompileInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets\msbuild.InfoService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets\msbuild.build.InfoService.props
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.InfoService.props
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.InfoService.props
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\scopedcss\bundle\InfoService.styles.css
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.csproj.CopyComplete
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\refint\InfoService.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.genruntimeconfig.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\Справочник_Шамиль\MY\InfraAnalytics with Spravochnik\InfraAnalytics\InfoService\obj\Debug\net7.0\ref\InfoService.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\appsettings.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\InfoService.exe
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\InfoService.deps.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\InfoService.runtimeconfig.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\InfoService.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\InfoService.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Cassandra.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\ClickHouse.Client.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\NCalc.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.AspNetCore.Server.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.AspNetCore.Server.Reflection.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.Core.Api.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.Net.Client.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.Net.ClientFactory.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.Net.Common.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Grpc.Reflection.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Http.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\NodaTime.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Npgsql.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\RestSharp.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\System.Management.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\System.Text.Encodings.Web.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\System.Text.Json.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Common.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Common.Services.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\ConfigDB.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\DataBase.Entities.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\DataBase.Models.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\HistoryDB.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Common.Services.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\Common.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\DataBase.Entities.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\HistoryDB.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\ConfigDB.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\bin\Debug\net7.0\DataBase.Models.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.csproj.AssemblyReference.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.AssemblyInfoInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.AssemblyInfo.cs
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.csproj.CoreCompileInputs.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets\msbuild.InfoService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets\msbuild.build.InfoService.props
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.InfoService.props
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.InfoService.props
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\scopedcss\bundle\InfoService.styles.css
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.csproj.CopyComplete
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\refint\InfoService.dll
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.pdb
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\InfoService.genruntimeconfig.cache
+C:\Users\Dmitriy.Simonov\Desktop\C#\InfraAnalytics\InfraAnalytics\InfoService\obj\Debug\net7.0\ref\InfoService.dll

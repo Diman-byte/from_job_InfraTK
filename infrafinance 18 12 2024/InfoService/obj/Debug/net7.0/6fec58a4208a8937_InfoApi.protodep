@@ -1,0 +1,2 @@
+obj\Debug\net7.0/InfoApi.cs \
+obj\Debug\net7.0/InfoApiGrpc.cs: ../Common.Services/Protos/InfoApi.proto

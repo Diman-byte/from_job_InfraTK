@@ -1,0 +1,12 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	
+  <!-- Add Resources Here -->
+  <SolidColorBrush x:Key="MainBackgroundColor">#FF333F50</SolidColorBrush>
+  <SolidColorBrush x:Key="MainColor">#FF0093c9</SolidColorBrush>
+  <!-- <SolidColorBrush x:Key="MainColor">#FFF0643E</SolidColorBrush> -->
+  <SolidColorBrush x:Key="ButtonPressedColor">#FFF0645F</SolidColorBrush>
+  <SolidColorBrush x:Key="TreeViewTabItemPointeroverColor">#FF97A3BA</SolidColorBrush>
+  <SolidColorBrush x:Key="TreeViewItemSelectedColor">#FF667799</SolidColorBrush>
+	
+</ResourceDictionary>

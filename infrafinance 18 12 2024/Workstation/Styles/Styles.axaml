@@ -1,0 +1,197 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+	<Styles.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceInclude Source="/Styles/Colors.axaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Styles.Resources>
+
+	<!--Этот элемент задаёт, как будет выглядеть предварительный просмотр стиля или компонента в дизайнере XAML-->
+	<Design.PreviewWith>
+		<GridSplitter MinHeight="100"/>
+	</Design.PreviewWith>
+
+	<!-- Add Styles Here -->
+	<!--  Окно  -->
+	<!--Selector="Window": Указывает, что этот стиль предназначен для всех окон (Window) в приложении.-->
+	<!-- Все окна автоматически получают этот стиль, что упрощает управление дизайном.-->
+	<Style Selector="Window">
+		<!--Устанавливает фон окна. Значение берётся из динамического ресурса MainBackgroundColor. Это позволяет менять фон глобально, просто изменяя ресурс.-->
+		<Setter Property="Background" Value="{DynamicResource MainBackgroundColor}"/>
+		<!--Определяет толщину границы окна. В данном случае граница имеет толщину в 1 пиксель.-->
+		<Setter Property="BorderThickness" Value="1" />
+		<!--Устанавливает цвет границы. Здесь используется чёрный цвет (Black)-->
+		<Setter Property="BorderBrush" Value="Black"/>
+		<!--Определяет иконку окна, которая отображается в заголовке окна и на панели задач. Здесь используется иконка из папки /Assяets, файл Infra-Icon.ico.-->
+		<Setter Property="Icon" Value="/Assets/Infra-Icon.ico"/>
+	</Style>
+
+	<!--Указывает, что стиль применяется ко всем элементам Image, у которых в XAML задан класс (Class) как InfraLogo.-->
+	<!--Например, для использования этого стиля, в XAML нужно указать: <Image Class="InfraLogo" />-->
+	<Style Selector="Image.InfraLogo">
+		<Setter Property="Source" Value="/Assets/Infra-Logo.png" />
+		<!--Ширина элемента Image в пикселях.-->
+		<Setter Property="Width" Value="240" />
+		<!--Определяет отступы вокруг элемента Image в формате Левый, Верхний, Правый, Нижний-->
+		<Setter Property="Margin" Value="0,10,0,0" />
+		<!-- Указывает, как изображение выравнивается горизонтально внутри родительского контейнера.
+Value="Center": Изображение будет выровнено по центру по горизонтали.-->
+		<Setter Property="HorizontalAlignment" Value="Center" />
+		<Setter Property="VerticalAlignment" Value="Center" />
+	</Style>
+
+	<!--Указывает, что этот стиль применяется ко всем элементам типа Border в приложении.-->
+	<Style Selector="Border">
+		<!--толщина границы-->
+		<Setter Property="BorderThickness" Value="2" />
+		<Setter Property="BorderBrush" Value="White" />
+	</Style>
+	
+	<!--Указывает, что стиль применяется только к элементам Border, у которых указан класс RoundBorder.
+<Border Class="RoundBorder" />-->
+	<Style Selector="Border.RoundBorder">
+		<Setter Property="BorderBrush" Value="{DynamicResource MainColor}" />
+		<!--Свойство CornerRadius задаёт радиус закругления углов.
+Value="3": Углы границы будут закруглены с радиусом 3 пикселя.-->
+		<Setter Property="CornerRadius" Value="3" />
+		<!--Свойство Margin задаёт отступы вокруг элемента.-->
+		<Setter Property="Margin" Value="2" />
+	</Style>
+
+	<!--Указывает, что этот стиль применяется ко всем элементам CheckBox в приложении.-->
+	<Style Selector="CheckBox">
+		<!--Задаёт цвет текста (метки) у флажка. Текст будет белым.-->
+		<Setter Property="Foreground" Value="White"/>
+		<!--Устанавливает размер шрифта текста, равный 14.-->
+		<Setter Property="FontSize" Value="14"/>
+		
+	</Style>
+	<!--Стиль применяется к текстовому элементу AccessText внутри шаблона (template) CheckBox.
+AccessText — это элемент, который отвечает за отображение текста метки.-->
+	<Style Selector="CheckBox /template/ AccessText">
+		<!--Текст метки будет белым, даже если он наследует другое значение в других местах.-->
+		<Setter Property="Foreground" Value="White" />
+	</Style>
+	<!--Стиль для иконки CheckMark внутри CheckBox-->
+	<!--Стиль применяется к элементу Path с идентификатором checkMark внутри шаблона (template) CheckBox.
+Обычно этот элемент отвечает за визуальное отображение отметки внутри флажка.-->
+	<Style Selector="CheckBox /template/ Path#checkMark">
+		<!--Отметка (галочка или квадрат) будет залита белым цветом.-->
+		<Setter Property="Fill" Value="White" />
+	</Style>
+	<!--Этот стиль применяется к элементам CheckBox, которые находятся в состоянии "выбрано" (галочка установлена).-->
+	<Style Selector="CheckBox:checked">
+		<!--Фон CheckBox становится прозрачным.-->
+		<Setter Property="Background" Value="Transparent" />
+		<!--Граница CheckBox меняет цвет на значение из динамического ресурса MainColor-->
+		<Setter Property="BorderBrush" Value="{DynamicResource MainColor}" />
+	</Style>
+	<!--Стиль применяется к элементу Border внутри шаблона CheckBox, когда курсор находится над CheckBox (состояние pointerover).-->
+	<Style Selector="CheckBox:pointerover /template/ Border">
+		<!--Цвет границы меняется на MainColor, чтобы визуально показать, что элемент находится под курсором.-->
+		<Setter Property="BorderBrush" Value="{DynamicResource MainColor}" />
+	</Style>
+	<Style Selector="CheckBox:unchecked /template/ Border#NormalRectangle">
+		<Setter Property="BorderBrush" Value="White"/>
+	</Style>
+
+	
+	<!--  TextBox  -->
+	<Style Selector="TextBox">
+		<Setter Property="Foreground" Value="White" />
+		<Setter Property="Padding" Value="2" />
+		<!--Цвет курсора (мигающая вертикальная линия) внутри текстового поля также устанавливается в белый.-->
+		<Setter Property="CaretBrush" Value="White" />
+		<!--Центрирует текст внутри поля по вертикали, чтобы он был ровно посередине высоты текстового поля.-->
+		<Setter Property="VerticalContentAlignment" Value="Center" />
+		<Setter Property="FontSize" Value="14" />
+		<Setter Property="BorderBrush" Value="White" />
+		<Setter Property="BorderThickness" Value="1" />
+		<!--Фон текстового поля сделан прозрачным, чтобы фон родительского контейнера был виден.-->
+		<Setter Property="Background" Value="Transparent" />
+	</Style>
+	<!--Применяется к границе текстового поля (Border#border) внутри его шаблона (/template), если:
+Элемент находится в фокусе (focus) или содержит подфокусируемый элемент (focus-within).-->
+	<!--В фокусе означает, что элемент пользовательского интерфейса является активным и готов к взаимодействию с пользователем. 
+	Это происходит, когда пользователь выбирает элемент для ввода данных -->
+	<Style Selector="TextBox:focus-within:focus /template/ Border#border">
+		<Setter Property="BorderBrush" Value="{DynamicResource MainColor}" />
+	</Style>
+	<!--Применяется к границе текстового поля (Border#border), если указатель мыши находится над текстовым полем (pointerover).-->
+	<Style Selector="TextBox:pointerover /template/ Border#border">
+		<Setter Property="BorderBrush" Value="{DynamicResource MainColor}" />
+	</Style>
+
+	
+	<!--  TextBlock  -->
+	<Style Selector="TextBlock">
+		<Setter Property="Foreground" Value="White" />
+		<Setter Property="FontSize" Value="14" />
+	</Style>
+	<!--Этот стиль изменяет свойства элемента Border, который находится внутри шаблона TextBlock. То есть, он не применяется к самому TextBlock,
+	а лишь к его внутреннему Border, если такой элемент существует в шаблоне.-->
+	<Style Selector="TextBlock /template/ Border">
+		<Setter Property="BorderThickness" Value="1" />
+		<Setter Property="BorderBrush" Value="{DynamicResource MainColor}" />
+	</Style>
+	
+	
+	<!--  Label  -->
+	<!--Указывает, что этот стиль применяется ко всем элементам Label в приложении.-->
+	<Style Selector="Label">
+		<!-- Текст будет белым, если не переопределён другими стилями или настройками.-->
+		<Setter Property="Foreground" Value="White" />
+	</Style>
+
+	<Style Selector="Label.InfraLogo">
+		<Setter Property="Content" Value="ИнфраФинанс" />
+		<Setter Property="HorizontalAlignment" Value="Center" />
+		<Setter Property="VerticalAlignment" Value="Center" />
+		<Setter Property="FontSize" Value="25" />
+		<!--Задаёт обычный стиль текста (например, не курсив).-->
+		<Setter Property="FontStyle" Value="Normal" />
+		<!--Делает текст жирным.-->
+		<Setter Property="FontWeight" Value="Bold" />
+	</Style>
+
+	<!--  Grid  -->
+	<Style Selector="Grid">
+		<Setter Property="Background" Value="{DynamicResource MainBackgroundColor}" />
+	</Style>
+	<Style Selector="Grid /template/ Border">
+		<Setter Property="BorderThickness" Value="1" />
+		<Setter Property="BorderBrush" Value="Black" />
+	</Style>
+
+	<!--  Button  -->
+	<Style Selector="Button">
+		<Setter Property="Background" Value="{DynamicResource MainColor}" />
+		<Setter Property="BorderThickness" Value="2" />
+		<Setter Property="Foreground" Value="White" />
+		<Setter Property="Height" Value="35" />
+	</Style>
+	<Style Selector="Button /template/ Border">
+		<Setter Property="BorderThickness" Value="1" />
+		<Setter Property="BorderBrush" Value="Black" />
+	</Style>
+	<Style Selector="Button:pressed">
+		<Setter Property="Background" Value="{DynamicResource ButtonPressedColor}" />
+		<Setter Property="BorderThickness" Value="1" />
+	</Style>
+
+	<Style Selector="Button.ControlButton">
+		<Setter Property="Background" Value="Transparent" />
+		<Setter Property="Height" Value="35" />
+		<Setter Property="Width" Value="35" />
+	</Style>
+	<Style Selector="Button.ControlButton /template/ Image">
+		<Setter Property="Height" Value="30" />
+	</Style>
+	<Style Selector="Button.ControlButton:pointerover /template/ ContentPresenter">
+		<Setter Property="BorderBrush" Value="{DynamicResource MainColor}" />
+	</Style>
+	
+</Styles>
