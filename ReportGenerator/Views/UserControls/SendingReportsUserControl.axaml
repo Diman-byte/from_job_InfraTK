@@ -1,0 +1,68 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="850"
+             x:Class="ReportGenerator.Views.UserControls.SendingReportsUserControl"
+			 xmlns:userControls="using:ReportGenerator.ViewModels.UserControls"
+			 x:DataType="userControls:SendingReportsUserControlViewModel">
+
+	<Design.DataContext>
+		<userControls:SendingReportsUserControlViewModel/>
+	</Design.DataContext>
+	
+
+	<Grid RowDefinitions="auto,auto,auto,auto,auto,auto" ColumnDefinitions="700, auto">
+
+		<TextBlock Grid.Row="0" FontWeight="Bold" Margin="5">Почтовый сервер</TextBlock>
+		<Border Grid.Row="1" BorderThickness="1" BorderBrush="Aqua" Margin="5" Padding="5">
+			<StackPanel Orientation="Vertical" Spacing="10">
+				<StackPanel Orientation="Horizontal" Spacing="15">
+					<TextBlock VerticalAlignment="Center" >Адрес сервера:</TextBlock>
+					<TextBox Text="{Binding MailModel.AddressServer}" Width="200"/>
+				</StackPanel>
+				<StackPanel Orientation="Horizontal" Spacing="15">
+					<TextBlock VerticalAlignment="Center" >Порт сервера:</TextBlock>
+					<TextBox Text="{Binding MailModel.PortServer}" Width="200"/>
+				</StackPanel>
+				<StackPanel Orientation="Horizontal" Spacing="15">
+					<TextBlock VerticalAlignment="Center" >Логин:</TextBlock>
+					<TextBox Text="{Binding MailModel.Login}" Width="200"/>
+				</StackPanel>
+				<StackPanel Orientation="Horizontal" Spacing="15">
+					<TextBlock VerticalAlignment="Center">Пароль:</TextBlock>
+					<TextBox Text="{Binding MailModel.Password}" PasswordChar="*" Width="200"/>
+				</StackPanel>
+			</StackPanel>
+		</Border>
+
+		<TextBlock Grid.Row="2" FontWeight="Bold" Margin="5">Параметры письма</TextBlock>
+		<Border BorderBrush="Aqua" BorderThickness="1" Grid.Row="3" Margin="5" Padding="5">
+			<StackPanel Orientation="Vertical" Spacing="10">
+				<StackPanel Orientation="Horizontal" Spacing="15">
+					<TextBlock VerticalAlignment="Center">Имя отправителя:</TextBlock>
+					<TextBox Text="{Binding MailModel.SenderName}" Width="200"/>
+				</StackPanel>
+				<StackPanel Orientation="Horizontal" Spacing="15">
+					<TextBlock VerticalAlignment="Center">Адрес почты отправителя:</TextBlock>
+					<TextBox Text="{Binding MailModel.SenderMail}" Width="200"/>
+				</StackPanel>
+			</StackPanel>
+		</Border>
+
+		<TextBlock Grid.Row="4" FontWeight="Bold" Margin="5">Содержание письма</TextBlock>
+		<Border BorderBrush="Aqua" BorderThickness="1" Grid.Row="5" Margin="5" Padding="5">
+			<StackPanel Orientation="Vertical" Spacing="10">
+				<TextBlock>Тема письма:</TextBlock>
+				<TextBox Text="{Binding MailModel.MessageSubject}" Width="450"  HorizontalAlignment="Left"/>
+				<TextBlock>Вступление:</TextBlock>
+				<TextBox Text="{Binding MailModel.MessageHeader}" Width="450"  HorizontalAlignment="Left"/>
+				<TextBlock>Текст письма:</TextBlock>
+				<TextBox Text="{Binding MailModel.MessageText}" Width="450" Height="200" HorizontalAlignment="Left"/>
+				<TextBlock> Заключение:</TextBlock>
+				<TextBox Text="{Binding MailModel.MessageEnding}" Width="450" HorizontalAlignment="Left"/>
+			</StackPanel>
+			
+		</Border>
+	</Grid>
+</UserControl>

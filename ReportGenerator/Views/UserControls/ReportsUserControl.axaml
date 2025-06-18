@@ -1,0 +1,193 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:userControls="using:ReportGenerator.ViewModels.UserControls"          
+			 mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+             x:Class="ReportGenerator.Views.UserControls.ReportsUserControl"
+			 x:DataType="userControls:ReportsUserControlViewModel"
+			 xmlns:converters="using:ReportGenerator.Converters">
+
+	<UserControl.Resources>
+		<converters:NullToVisibilityConverter  x:Key="NullToVisibilityConverter"/>
+		<converters:NotNullToVisibilityConverter x:Key="NotNullToVisibilityConverter"/>
+	</UserControl.Resources>
+	
+	<Design.DataContext>
+		<userControls:ReportsUserControlViewModel/>
+	</Design.DataContext>
+
+
+	
+	<!--<Design.DataContext> работает только в дизайнере, не в рантайме.-->
+
+	<!--ResizeDirection="Rows"
+Определяет направление изменения размеров: здесь — по строкам. То есть пользователь сможет тянуть GridSplitter вверх и вниз,
+изменяя высоту строк, между которыми он находится.-->
+	<!--ResizeBehavior="PreviousAndNext"
+Указывает, какие строки будут изменяться: предыдущая и следующая.-->
+	<Grid RowDefinitions="250,auto" ColumnDefinitions="700">
+		
+
+		<Grid Grid.Row="0" RowDefinitions="Auto,150,auto,auto">
+			<TextBlock Grid.Row="0" Text="Генерируемые отчеты" FontWeight="Bold" FontSize="16" Margin="10"/>
+
+			<DataGrid Grid.Row="1"
+					  Margin="10"
+					  GridLinesVisibility="All"
+					  AutoGenerateColumns="False"
+					  CanUserResizeColumns="True"
+					  SelectionMode="Single"
+					  ItemsSource="{Binding ReportsList}"
+					  SelectedItem="{Binding SelectedReport}"
+					  x:Name="ReportsDG">
+				<DataGrid.Columns>
+					<DataGridTextColumn Header="Имя отчета" Binding="{Binding NameReport}" Width="200"/>
+					<DataGridTextColumn Header="Описание отчета" Binding="{Binding Description}" Width="2*"/>
+				</DataGrid.Columns>			
+			</DataGrid>
+
+			<!--Command="{Binding CreateReport}"-->
+			<StackPanel Grid.Row="2" Orientation="Horizontal" Margin="10">
+				<Button Command="{Binding AddReportCommand}" Margin="0,0,5,0">Добавить отчет</Button>
+				<Button Command="{Binding DeleteReportCommand}">Удалить отчет</Button>
+			</StackPanel>
+
+			<GridSplitter Grid.Row="3" Height="4" Background="Aqua" HorizontalAlignment="Stretch" ResizeDirection="Rows"
+					  ResizeBehavior="PreviousAndNext"/>
+	
+		</Grid>
+
+		<Grid Grid.Row="1" Margin="0,0,0,0">
+
+			<StackPanel>
+				<TextBlock Text="Настройки отчета" FontWeight="Bold" FontSize="16" Margin="10,0,0,10"/>
+				<TextBlock Text="Выберите отчет" FontStyle="Italic" IsVisible="{Binding SelectedReport, Converter={StaticResource NullToVisibilityConverter}}"/>
+
+				<!--{Binding SelectedReport, Converter={StaticResource NotNullToVisibilityConverter}}-->
+				<StackPanel IsVisible="{Binding SelectedReport, Converter={StaticResource NotNullToVisibilityConverter}}">
+					<StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+						<TextBlock Text="Файл шаблона отчета:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+						<TextBox Text="{Binding SelectedReport.TemplateFilePath}" Width="200" IsReadOnly="False"/>
+						<Button Command="{Binding OpenFileTemplateCommand}" Margin="5,0,0,0">Выбрать</Button>
+					</StackPanel>
+
+					<StackPanel Orientation="Horizontal">
+						<TextBlock Text="Каталог вывода отчета" VerticalAlignment="Center" Margin="0,0,10,0"/>
+						<TextBox Text="{Binding SelectedReport.ReportFolderPath}" Width="200" IsReadOnly="False"/>
+						<Button Command="{Binding OpenFolderReportCommand}" Margin="5,0,0,0">Выбрать</Button>
+					</StackPanel>
+					
+					<!--работа с настройками расписания-->
+					<Grid RowDefinitions="75,auto" Margin="5,5,0,0">
+						<StackPanel Orientation="Horizontal">
+							<Grid Grid.Row="0" ColumnDefinitions="125,auto">
+								<TextBlock VerticalAlignment="Center" Grid.Column="0">По расписанию:</TextBlock>
+								<ComboBox VerticalAlignment="Center" Grid.Column="1" MinWidth="150"
+										  ItemsSource="{Binding TypeScheduleList}"
+										  SelectedItem="{Binding SelectedReport.ScheduleParam.TypeSchedule}"
+										  />
+							</Grid>
+
+							<Grid Grid.Row="1" RowDefinitions="auto,auto">
+								<Grid Grid.Row="0"
+									  Margin="15,0,0,0"
+									  ColumnDefinitions="Auto,Auto,Auto,Auto,Auto">
+									<StackPanel Grid.Column="0"
+												Margin="5,0,0,0"
+												Spacing="5">
+										<TextBlock HorizontalAlignment="Center"
+															   Text="Месяц" />
+										<TextBox MinWidth="60"
+												 MaxWidth="60"
+												 Text="{Binding SelectedReport.ScheduleParam.Month}" />
+									</StackPanel>
+									<StackPanel Grid.Column="1"
+															   Margin="5,0,0,0"
+															   Spacing="5">
+										<TextBlock HorizontalAlignment="Center"
+												   Text="День" />
+
+										<TextBox MinWidth="60"
+												 MaxWidth="60"
+												 Text="{Binding SelectedReport.ScheduleParam.Day}"/>
+									</StackPanel>
+									<StackPanel Grid.Column="2"
+															  Margin="5,0,0,0"
+															  Spacing="5">
+										<TextBlock HorizontalAlignment="Center"
+												   Text="Часы" />
+										<TextBox MinWidth="60"
+												 MaxWidth="60"
+												 Text="{Binding SelectedReport.ScheduleParam.Hour}" />
+									</StackPanel>
+									<StackPanel Grid.Column="3"
+															   Margin="5,0,0,0"
+															   Spacing="5">
+										<TextBlock HorizontalAlignment="Center"
+												   Text="Минуты" />
+										<TextBox MinWidth="60"
+												 MaxWidth="60"
+												Text="{Binding SelectedReport.ScheduleParam.Minute}" />
+									</StackPanel>
+									<StackPanel Grid.Column="4"
+															   Margin="5,0,0,0"
+															   Spacing="5">
+										<TextBlock HorizontalAlignment="Center"
+												   Text="Секунды" />
+										<TextBox MinWidth="60"
+												 MaxWidth="60"
+												 Text="{Binding SelectedReport.ScheduleParam.Seconds}" />
+									</StackPanel>
+								</Grid>
+								<StackPanel Grid.Row="1"
+														   Margin="15,2,0,2"
+														   Orientation="Horizontal"
+														   Spacing="5">
+									<TextBlock Text="Время следующего выполнения:" />
+									<TextBlock Text=""/>
+								</StackPanel>
+							</Grid>							
+						</StackPanel>			
+					</Grid>
+					
+					<CheckBox Content="Отправляю по Email" IsChecked="{Binding SelectedReport.SendByEmail}" Margin="10,0,0,0"/>
+
+					<StackPanel Orientation="Horizontal" Spacing="10" IsVisible="{Binding SelectedReport.SendByEmail}">
+						<StackPanel Orientation="Vertical">
+							
+							<RadioButton Content="Отправлять Email всем пользователям указанной роли"
+									 GroupName="ModeEmail"
+									 IsChecked="{Binding SelectedReport.ModeEmailRole}"/>
+					
+							<StackPanel Orientation="Horizontal" Spacing="10">
+								<TextBlock VerticalAlignment="Center">Роль:</TextBlock>
+								<ComboBox Width="250" ItemsSource="{Binding RolesEmail}" SelectedItem="{Binding SelectedReport.SelectedRole}"></ComboBox>
+							</StackPanel>		
+						</StackPanel>
+
+						<StackPanel Orientation="Vertical">
+							<RadioButton Content="Отправлять Email на указанный адрес"
+									 GroupName="ModeEmail"
+									 IsChecked="{Binding SelectedReport.ModeEmailAddress}"/>
+							<StackPanel Orientation="Horizontal" Spacing="10">
+								<TextBlock VerticalAlignment="Center">Email адрес:</TextBlock>
+								<TextBox Width="200" Text="{Binding SelectedReport.EmailTo}"/>
+							</StackPanel>							
+						</StackPanel>
+					</StackPanel> 
+					
+					
+
+				</StackPanel>
+				
+			</StackPanel>
+			
+		</Grid>
+		
+		
+	</Grid>
+	
+	
+	
+</UserControl>

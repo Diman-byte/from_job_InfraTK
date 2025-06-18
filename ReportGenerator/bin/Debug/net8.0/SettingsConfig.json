@@ -1,0 +1,1 @@
+{"DataServerAddress":"172.30.200.18","DataServerPort":"5100","KeycloakAddress":"localhost:8080","Login":"usertest","Password":"test1234","Realm":"data_analytics","Scope":"openid","ClientId":"infoservice"}

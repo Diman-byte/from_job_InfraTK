@@ -1,0 +1,83 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:ReportGenerator.ViewModels"
+		xmlns:userControls="using:ReportGenerator.Views.UserControls"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="950" d:DesignHeight="640"
+		Width="950" Height="640"
+        x:Class="ReportGenerator.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"  
+		Icon="avares://ReportGenerator/Assets/Icon-InfraTK.ico"
+        Title="Генератор отчетов">
+		
+	
+	
+	
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+	
+	
+	<Grid RowDefinitions="*, 100">
+
+		<!--Панель проекта-->
+		<!--TabStripPlacement="Left"  вкладки отображаются слева от содержимого и располагаются вертикально. -->
+		<!--SelectionChanged="ProjTabControl_SelectionChanged" Это событие, которое вызывается каждый раз, 
+		когда пользователь выбирает другую вкладку.-->
+		<TabControl x:Name="ProjTabControl"
+					Margin="0,40,0,0"
+					Grid.Row="0"
+					
+					TabStripPlacement="Left">
+
+			<TabItem ToolTip.Tip="Настройка подключения">
+				<TabItem.Header>
+					<TextBlock HorizontalAlignment="Center"
+							   Text="Настройка подключения"
+							   FontSize="12"/>
+				</TabItem.Header>
+				<userControls:SettingsUserControl DataContext="{Binding SettingsVM}"/>
+			</TabItem>
+
+			<TabItem ToolTip.Tip="Отчеты">
+				<TabItem.Header>
+					<TextBlock HorizontalAlignment="Center"
+							   Text="Отчеты"
+							   FontSize="12"/>
+				</TabItem.Header>
+				<ScrollViewer HorizontalScrollBarVisibility="Auto"
+							  VerticalScrollBarVisibility="Auto">
+					<userControls:ReportsUserControl DataContext="{Binding ReportsVM}"/>
+				</ScrollViewer>
+				
+			</TabItem>
+
+			<TabItem  ToolTip.Tip="Рассылка отчетов">
+				<TabItem.Header>
+					<TextBlock HorizontalAlignment="Center"
+							   Text="Рассылка отчетов"
+							   FontSize="12"/>
+				</TabItem.Header>
+
+				<ScrollViewer HorizontalScrollBarVisibility="Auto"
+							  VerticalScrollBarVisibility="Auto">
+					<userControls:SendingReportsUserControl DataContext="{Binding SendingVM}"/>
+				</ScrollViewer>
+				</TabItem>
+			
+		</TabControl>
+
+		<StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="10">
+			<Button Command="{Binding SaveCommand}" Margin="20,0,0,0">Сохранить</Button>
+			<Button>Закрыть</Button>
+		</StackPanel>
+		
+		
+	</Grid>
+    
+	
+	
+</Window>

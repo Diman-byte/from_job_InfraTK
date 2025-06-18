@@ -1,0 +1,80 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:userControls="using:ReportGenerator.ViewModels.UserControls"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="550"
+             x:Class="ReportGenerator.Views.UserControls.SettingsUserControl"
+			 x:DataType="userControls:SettingsUserControlViewModel">
+
+	<Design.DataContext>
+		<userControls:SettingsUserControlViewModel/>
+	</Design.DataContext>
+
+	<UserControl.Styles>
+		<Style Selector="TextBlock">
+			<Setter Property="Margin" Value="0,0,0,0"/>
+			<Setter Property="HorizontalAlignment" Value="Center"/>
+			<Setter Property="VerticalAlignment" Value="Center"/>
+		</Style>
+		<Style Selector="TextBox">
+			<Setter Property="Margin" Value="0,0,0,0"/>
+			<Setter Property="HorizontalContentAlignment" Value="Center"/>
+			<Setter Property="VerticalContentAlignment" Value="Center"/>
+			<Setter Property="HorizontalAlignment" Value="Center"/>
+			<Setter Property="VerticalAlignment" Value="Center"/>
+		</Style>
+	</UserControl.Styles>
+
+	
+	
+	<StackPanel Margin="30,10,0,0" Orientation="Vertical" Spacing="10">		
+		
+		<StackPanel Orientation="Horizontal" Spacing="30">
+			<TextBlock Grid.Column="0" Text="Адрес сервера DataServer" Width="200"/>
+			<TextBox Grid.Column="1" Text="{Binding DataServerAddress, Mode=TwoWay}" Width="200"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal" Spacing="30">
+			<TextBlock Grid.Column="0" Text="Порт сервера DataServer"  Width="200"/>
+			<TextBox Grid.Column="1" Text="{Binding DataServerPort, Mode=TwoWay}" Width="200"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal" Spacing="30">
+			<TextBlock Grid.Column="0" Text="Параметры Keycloak"  Width="200" FontWeight="Bold" Margin="150,25,0,0"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal" Spacing="30">
+			<TextBlock Grid.Column="0" Text="Адрес сервера Keycloak"  Width="200"/>
+			<TextBox Grid.Column="1" Text="{Binding KeycloakAddress, Mode=TwoWay}" Width="200"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal" Spacing="30">
+			<TextBlock Grid.Column="0" Text="Логин"  Width="200"/>
+			<TextBox Grid.Column="1" Text="{Binding Login, Mode=TwoWay}" Width="200"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal" Spacing="30">
+			<TextBlock Grid.Column="0" Text="Пароль"  Width="200"/>
+			<TextBox Grid.Column="1" PasswordChar="*" Text="{Binding Password, Mode=TwoWay}" Width="200"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal" Spacing="30">
+			<TextBlock Grid.Column="0" Text="Realm"  Width="200"/>
+			<TextBox Grid.Column="1" Text="{Binding Realm, Mode=TwoWay}" Width="200"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal" Spacing="30">
+			<TextBlock Grid.Column="0" Text="Scope"  Width="200"/>
+			<TextBox Grid.Column="1" Text="{Binding Scope, Mode=TwoWay}" Width="200"/>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal" Spacing="30">
+			<TextBlock Grid.Column="0" Text="ClientId"  Width="200"/>
+			<TextBox Grid.Column="1" Text="{Binding ClientId, Mode=TwoWay}" Width="200"/>
+		</StackPanel>
+		
+		<Grid Margin="0,5,0,0" ColumnDefinitions="auto,auto,auto" RowDefinitions="auto, auto">
+			<Button Grid.Column="0"
+				Command="{Binding CheckConnectionCommand}">Проверка подключения</Button>
+			<TextBlock Grid.Column="1" Text="Статус:" Margin="10,0,0,0"/>
+			<TextBlock TextWrapping="Wrap" MaxWidth="350" Grid.Column="2"
+					   Text="{Binding ConnectionMessage}" Margin="5,0,0,0"/>
+			<Button IsVisible="False" Margin="0,10,0,0" Grid.Row="1" Command="{Binding SaveSettingsCommand}">Сохранить параметры подключения</Button>
+		</Grid>
+		
+	</StackPanel>
+	
+</UserControl>
