@@ -1,4 +1,5 @@
-﻿using Microsoft.Office.Tools.Ribbon;
+﻿using ExcelReportingAddin.Forms_Windows;
+using Microsoft.Office.Tools.Ribbon;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,12 @@ namespace ExcelReportingAddin
             readData.ShowDialog();
         }
 
+        private void OpenReadEventsWindow()
+        {
+            var EventsReadForm = new EventsReadingForm();
+            EventsReadForm.ShowDialog();
+        }
+
         private void button4_Click(object sender, RibbonControlEventArgs e)
         {
             // Вызов окна чтения данных
@@ -35,8 +42,8 @@ namespace ExcelReportingAddin
         private void button5_Click(object sender, RibbonControlEventArgs e)
         {
             // Вызов окна чтения событий
-            //OpenReadEventsWindow();
-            MessageBox.Show("Окно чтения событий");
+            OpenReadEventsWindow();
+            //MessageBox.Show("Окно чтения событий");
         }
 
         private void button6_Click(object sender, RibbonControlEventArgs e)

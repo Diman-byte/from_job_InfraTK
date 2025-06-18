@@ -22,5 +22,29 @@ namespace ExcelReportingAddin.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool RunOnOpenEvents {
+            get {
+                return ((bool)(this["RunOnOpenEvents"]));
+            }
+            set {
+                this["RunOnOpenEvents"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool RunOnOpenData {
+            get {
+                return ((bool)(this["RunOnOpenData"]));
+            }
+            set {
+                this["RunOnOpenData"] = value;
+            }
+        }
     }
 }

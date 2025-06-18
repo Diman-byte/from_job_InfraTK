@@ -8,6 +8,7 @@ using Office = Microsoft.Office.Core;
 using Microsoft.Office.Tools.Excel;
 using ExcelReportingAddin.DTOs;
 using Microsoft.Office.Interop.Excel;
+using ExcelReportingAddin.Forms_Windows;
 
 namespace ExcelReportingAddin
 {
@@ -15,13 +16,34 @@ namespace ExcelReportingAddin
     // активной книге Excel, в которой надстройка запущена
     public partial class ThisAddIn
     {
-
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
+            // подписываемся на событие открытия книги
+            this.Application.WorkbookOpen += new Excel.AppEvents_WorkbookOpenEventHandler(Application_WorkbookOpen);
+        }
+
+        private void Application_WorkbookOpen(Excel.Workbook Wb)
+        {
+            // Код, который выполняется при открытии любой книги
+
+            var formEvents = new EventsReadingForm();
+            if (Properties.Settings.Default.RunOnOpenEvents)
+            {
+                //System.Windows.Forms.MessageBox.Show("Автоматическое заполнение отчета событиями");
+                formEvents.GenerateReportEvents();
+            }
+
+            var formData = new DataReadingForm();
+            if (Properties.Settings.Default.RunOnOpenData)
+            {
+                //System.Windows.Forms.MessageBox.Show("Автоматическое заполнение отчета данными");
+                formData.GenerateReportData();
+            }
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
         {
+            this.Application.WorkbookOpen -= new Excel.AppEvents_WorkbookOpenEventHandler(Application_WorkbookOpen);
         }
 
         #region Код, автоматически созданный VSTO
@@ -259,6 +281,80 @@ namespace ExcelReportingAddin
             }
 
             return result;
+        }
+
+
+        /// <summary>
+        /// Выводит события "уведомления" в Excel
+        /// </summary>
+        /// <param name="events">список событий</param>
+        /// <param name="assets_event">словарь с ключом "id события" и значением "имя актива"</param>
+        /// <param name="nameSheet">имя листа, куда будем выводить данные</param>
+        /// <param name="format">формат даты</param>
+        /// <param name="NameAttributes">булево значение, выводить ли атрибуты в таблицу</param>
+        public void ExportEventToExcel(List<EventDto> events, Dictionary<string, string> assets_event, string namesheet, string format, bool NameAttributes)
+        {
+            Excel.Worksheet dataSheet = GetOrCreateWorksheet(namesheet);  // Проверяет, есть ли лист с именем "Notification". Если нет, создаёт новый лист с этим именем.
+
+            // Очистка старых данных
+            dataSheet.Cells.Clear();
+
+            int str = 1;
+
+            // выводить ли атрибуты в таблицу
+            if (NameAttributes == true)
+            {
+                // заполняю название столбцов
+                dataSheet.Cells[1, 1] = "Имя объекта";
+                dataSheet.Cells[1, 2].Value = "EventId";
+                dataSheet.Cells[1, 3].Value = "TimeStamp";
+                dataSheet.Cells[1, 4].Value = "EventType";
+
+                // Объединяем диапазон ячеек для надписи EventAttributes
+                Excel.Range range_1 = dataSheet.Range["E1", "P1"];
+                range_1.Merge();
+                range_1.Value = "EventAttributes";
+
+                int counter = 5;
+                foreach (EventAttribute eventAttribute in events[0].EventAttributes)
+                {
+                    dataSheet.Cells[2, counter++].Value = eventAttribute.Key;
+                }
+
+                str = 3; // начинаем с 3 строки, тк на 1 и 2 будут атрибуты
+            }
+            
+
+            foreach (EventDto eventNotification in events)
+            {
+                int i = 1;
+
+                // выводим имя актива
+                dataSheet.Cells[str, i++] = assets_event[eventNotification.EventId];
+
+                dataSheet.Cells[str, i++].Value = eventNotification.EventId;
+
+                // Преобразуем Unix Timestamp (в секундах) в DateTime (UTC)
+                DateTime dateTimeUtc = DateTimeOffset.FromUnixTimeSeconds(eventNotification.TimeStamp).UtcDateTime;
+                // Преобразуем в локальное время
+                DateTime dateTimeLocal = dateTimeUtc.ToLocalTime();
+                dataSheet.Cells[str, i++].Value = dateTimeLocal.ToString(format);
+
+                dataSheet.Cells[str, i++].Value = eventNotification.EventType;
+
+                foreach(EventAttribute attribute in eventNotification.EventAttributes)
+                {
+                    dataSheet.Cells[str, i++].Value = attribute.Value;
+                }
+
+                dataSheet.Rows[str].RowHeight = 30;
+                str++;               
+            }
+
+
+
+            // Настройка ширины столбцов
+            dataSheet.Columns.AutoFit();
         }
 
     }

@@ -1,1 +1,1 @@
-{"DataServerAddress":"localhost","DataServerPort":"5100","KeyCloakAddress":"localhost","Username":"usertest"}
+{"DataServerAddress":"172.30.200.18","DataServerPort":"5100","KeyCloakAddress":"172.30.200.69:8080","Username":"usertest","Password":"test1234","Realm":"data_analytics","Scope":"openid","ClientId":"infoservice"}

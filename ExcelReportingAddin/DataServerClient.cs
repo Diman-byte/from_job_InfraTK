@@ -10,6 +10,7 @@ using System.Net.Http.Headers;
 using Newtonsoft.Json;
 using System.Windows.Controls;
 using static System.Net.WebRequestMethods;
+using System.Text.Json;
 
 namespace ExcelReportingAddin
 {
@@ -238,6 +239,73 @@ namespace ExcelReportingAddin
             return tagsVal;
         }
 
+        /// <summary>
+        /// Получить события типа
+        /// </summary>
+        /// <param name="assetId">id актива</param>
+        /// <param name="startDate">Объект времени с началом диапазона</param>
+        /// <param name="endDate">Объект времени с концом диапазона</param>
+        /// <param name="eventType">строка с типом события</param>
+        /// <param name="condition">Условия для выборки событий</param>
+        /// <returns>Список событий</returns>
+        public async Task<List<EventDto>> GetEvent(Guid assetId, DateTime startDate, DateTime endDate, string eventType, EventCondition condition = null)
+        {
+            List<EventDto> events = new List<EventDto>();
+
+            string formattedDateTimeStart = startDate.ToString("yyyy-MM-dd HH:mm:ss");
+            string formattedDateTimeStop = endDate.ToString("yyyy-MM-dd HH:mm:ss");
+
+            string encodedDateTimeStart = Uri.EscapeDataString(formattedDateTimeStart);
+            string encodedDateTimeEnd = Uri.EscapeDataString(formattedDateTimeStop);
+
+            string assetUrl = assetId.ToString();
+
+            var url = _baseUrl + "/GetHistoricalEvents?assetId=" + assetUrl + "&timeFrom=" + encodedDateTimeStart + "&timeTo=" + encodedDateTimeEnd +
+                    $"&eventType={eventType}";
+
+            if (condition != null)
+            {
+                // дописать для условия
+                url = _baseUrl + "/GetHistoricalEvents?assetId=" + assetUrl + "&timeFrom=" + encodedDateTimeStart + "&timeTo=" + encodedDateTimeEnd +
+                    $"&eventType={eventType}";
+            }
+
+            using (var client = new HttpClient())
+            {
+                HttpResponseMessage response = await client.GetAsync(url);
+
+                if(response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
+                    // через этот способ десериализации не работает
+                    //EventData eventData = JsonConvert.DeserializeObject<EventData>(json);
+
+                    // Проверяем, пустая ли строка
+                    if (string.IsNullOrWhiteSpace(json))
+                    {
+                        //throw new Exception("Ошибка: отсутствуют данные с выбранными параметрами");
+                        return events;
+                    }
+
+                    var options = new JsonSerializerOptions
+                    {
+                        // игноририруем регистр имен полей
+                        PropertyNameCaseInsensitive = true
+                    };
+
+                    var eventData = System.Text.Json.JsonSerializer.Deserialize<EventData>(json, options);
+
+                    events = eventData?.Events;
+                }
+                else
+                {
+                    throw new Exception($"Error: {response.ReasonPhrase}");
+                }       
+            }
+            return events;
+        }
+
+        
 
     }
 }

@@ -26,18 +26,41 @@
     <NoStandardLibraries>false</NoStandardLibraries>
     <RootNamespace>ExcelReportingAddin</RootNamespace>
     <AssemblyName>ExcelReportingAddin</AssemblyName>
-    <LoadBehavior>3</LoadBehavior>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <DefineConstants>VSTO40</DefineConstants>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
-    <BootstrapperComponentsLocation>HomeSite</BootstrapperComponentsLocation>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <PublishUrl>опубликовать\</PublishUrl>
+    <InstallUrl />
+    <TargetCulture>ru</TargetCulture>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>days</UpdateIntervalUnits>
+    <IsWebBootstrapper>False</IsWebBootstrapper>
+    <ProductName>ExcelReportingAddin</ProductName>
+    <PublisherName />
+    <SupportUrl />
+    <FriendlyName>ExcelReportingAddin</FriendlyName>
+    <OfficeApplicationDescription />
+    <LoadBehavior>3</LoadBehavior>
   </PropertyGroup>
   <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.VSTORuntime.4.0">
       <Visible>False</Visible>
-      <ProductName>Microsoft Visual Studio 2010 Tools for Office Runtime %28x86 and x64%29</ProductName>
+      <ProductName>Среда выполнения Microsoft Visual Studio 2010 Tools for Office %28x86 и x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
@@ -223,6 +246,8 @@
     <Compile Include="DTOs\AssetGroupDto.cs" />
     <Compile Include="DTOs\AssetGroupTreeNodeDto.cs" />
     <Compile Include="DTOs\ConfigReadData.cs" />
+    <Compile Include="DTOs\ConfigReadEvents.cs" />
+    <Compile Include="DTOs\EventDto.cs" />
     <Compile Include="DTOs\TagValDto.cs" />
     <Compile Include="DataServerClient.cs" />
     <Compile Include="DTOs\TagDto.cs" />
@@ -239,6 +264,12 @@
     <Compile Include="ExcelRibbon.Designer.cs">
       <DependentUpon>ExcelRibbon.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms Windows\EventsReadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms Windows\EventsReadingForm.Designer.cs">
+      <DependentUpon>EventsReadingForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="KeyCloak\JwtToken.cs" />
     <Compile Include="KeyCloak\KeyCloakApi.cs" />
     <Compile Include="KeyCloak\KeyCloakInfo.cs" />
@@ -251,6 +282,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ExcelRibbon.resx">
       <DependentUpon>ExcelRibbon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms Windows\EventsReadingForm.resx">
+      <DependentUpon>EventsReadingForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

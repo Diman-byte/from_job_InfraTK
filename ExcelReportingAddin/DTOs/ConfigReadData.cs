@@ -15,6 +15,11 @@ namespace ExcelReportingAddin.DTOs
         public List<Guid> SelectedTagIds {  get; set; } = new List<Guid>();
 
         /// <summary>
+        /// выбранный актив(объект)
+        /// </summary>
+        public Guid SelectedAsset {  get; set; }
+
+        /// <summary>
         /// параметры времени начала диапазона
         /// </summary>
         public TimeSettings TimeSettingsStart { get; set; } = new TimeSettings();
@@ -53,14 +58,9 @@ namespace ExcelReportingAddin.DTOs
         public string Mode { get; set; } = "Relative"; // по умолчанию "Относительное"
 
         /// <summary>
-        /// тип относительного времени(индекс в КомбоБокс). по умолчанию "Сейчас минус"
-        /// 0 - Сейчас плюс
-        /// 1 - Сейчас минус
-        /// 2 - Сегодня плюс
-        /// 3 - Сегодня минус
-        ///  Сегодня означает текущую дату с меткой времени 00:00:00  
+        /// тип относительного времени(в КомбоБокс). по умолчанию "Сейчас"
         /// </summary>
-        public int IndexSign { get; set; } = 1;
+        public string Sign { get; set; } = "Сейчас";
 
         /// <summary>
         /// значение сдвига относительного времени
@@ -71,7 +71,6 @@ namespace ExcelReportingAddin.DTOs
         /// время абсолютное
         /// </summary>
         public DateTime? AbsolutTime { get; set; }
-
     }
 
     public class RelativeOffset
@@ -90,7 +89,7 @@ namespace ExcelReportingAddin.DTOs
         /// <summary>
         /// имя листа Excel, куда будем выгружать данные
         /// </summary>
-        public string NameSheet { get; set; }
+        public string NameSheet { get; set; } = "Data";
 
         /// <summary>
         /// формат даты и времени
@@ -106,6 +105,11 @@ namespace ExcelReportingAddin.DTOs
         /// отображать описание тегов(да или нет)
         /// </summary>
         public bool IsDisplayTagDescription { get; set; }
+
+        /// <summary>
+        /// заполнять автоматически данными при открытии книги
+        /// </summary>
+        public bool AutoFillingData { get; set; }
     }
 
 }

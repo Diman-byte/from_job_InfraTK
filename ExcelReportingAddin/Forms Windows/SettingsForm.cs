@@ -29,6 +29,9 @@ namespace ExcelReportingAddin
         public string KeyCloakAddress => txtKeyCloakAddress.Text;
         public string Username => txtUsername.Text;
         public string Password => txtPassword.Text;
+        public string Realm => txtRealm.Text;
+        public string Scope => txtScope.Text;
+        public string ClientId => txtClientId.Text;
 
 
 
@@ -42,6 +45,8 @@ namespace ExcelReportingAddin
         /// </summary>
         public static JwtToken UserAccessToken;
 
+       
+
         public SettingsForm()
         {
             InitializeComponent();
@@ -51,8 +56,16 @@ namespace ExcelReportingAddin
 
             LoadSettings(); // чтобы настройки автоматически подгружались при открытии окна
 
-            // инициализируем поле
-            KeyCloakInfo = new KeyCloakInfo();
+            this.FormClosed += SettingsForm_FormClosed;
+
+        }
+
+        /// <summary>
+        /// Обработка события при закрывании окна(формы)
+        /// </summary>
+        private void SettingsForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            SaveSettings();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -68,6 +81,8 @@ namespace ExcelReportingAddin
             //MessageBox.Show("Проверка подключения...");
             SaveSettings();
 
+            GetInfoKeyCloak();
+
             //подключение и авторизация к keycloak
             if (TryGetUserAccessToken(Username, Password))
             {
@@ -77,7 +92,25 @@ namespace ExcelReportingAddin
             {
                 MessageBox.Show("Ошибка подключения keycloak");
             }
+        }
 
+        /// <summary>
+        /// Проверка подключения при нажатии кнопок "Загрузить"
+        /// </summary>
+        public bool CheckConnection()
+        {
+            GetInfoKeyCloak();
+            //подключение и авторизация к keycloak
+            if (TryGetUserAccessToken(Username, Password))
+            {
+                //MessageBox.Show("Подключение keycloak успешно");
+                return true;
+            }
+            else
+            {
+                MessageBox.Show("Ошибка подключения keycloak");
+                return false;
+            }
         }
 
         /// <summary>
@@ -91,14 +124,26 @@ namespace ExcelReportingAddin
                 DataServerAddress = txtDataServerAddress.Text,
                 DataServerPort = txtDataServerPort.Text,
                 KeyCloakAddress = txtKeyCloakAddress.Text,
-                Username = txtUsername.Text
+                Username = txtUsername.Text,
+                Password = txtPassword.Text,
+                Realm = txtRealm.Text,
+                Scope = txtScope.Text,
+                ClientId = txtClientId.Text,
             };
-            string appDataPath = AppDomain.CurrentDomain.BaseDirectory; // Возвращает путь к папке, в которой запущен текущий исполняемый файл
-                                                                        // Ориентирована на приложение; подходит для ресурсов и файлов, связанных с текущей программой
+
+
+            string appDataPath_1 = AppDomain.CurrentDomain.BaseDirectory; // Возвращает путь к папке, в которой запущен текущий исполняемый файл
+            // Ориентирована на приложение; подходит для ресурсов и файлов, связанных с текущей программой
+
+            string appDataPath_2 = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData); // AppData/Roaming
+
             string name_file_settings = "settings.json";
-            string path_settings = Path.Combine(appDataPath, name_file_settings);
+            string path_settings_1 = Path.Combine(appDataPath_1, name_file_settings);
+            string path_settings_2 = Path.Combine(appDataPath_2, name_file_settings);
+
             string json = JsonConvert.SerializeObject(settings);
-            File.WriteAllText(path_settings, json);
+            File.WriteAllText(path_settings_1, json);
+            File.WriteAllText(path_settings_2, json);
         }
 
         /// <summary>
@@ -122,6 +167,11 @@ namespace ExcelReportingAddin
                 txtDataServerPort.Text = settings.DataServerPort;
                 txtKeyCloakAddress.Text = settings.KeyCloakAddress;
                 txtUsername.Text = settings.Username;
+                txtPassword.Text = settings.Password;
+                txtRealm.Text = settings.Realm;
+                txtScope.Text = settings.Scope;
+                txtClientId.Text = settings.ClientId;
+                
             }
         }
 
@@ -135,6 +185,7 @@ namespace ExcelReportingAddin
         {
             try
             {
+               
                 var keyCloakApi = new KeyCloakApi();
                 UserAccessToken = keyCloakApi.GetToken(KeyCloakInfo, login, password, CancellationToken.None).Result;
                 return true;
@@ -142,11 +193,42 @@ namespace ExcelReportingAddin
             catch (Exception exception)
             {
                 //потом добавить норм обработку ошибок
-                MessageBox.Show("Неверно указан логин/пароль или настройки пользователя");
+                MessageBox.Show("Неверно указан логин/пароль или другие настройки (Realm, Scope, ClientId)");
                 return false;
             }
         }
 
+        /// <summary>
+        /// запрос информации о сервисе KeyCloak
+        /// </summary>
+        private void GetInfoKeyCloak()
+        {
+            string realm_ = string.IsNullOrEmpty(Realm) ? "master" : Realm;
+            string clientId_ = string.IsNullOrEmpty(ClientId) ? "ClientTestId" : ClientId;
+            string scope_ = string.IsNullOrEmpty(Scope) ? "openid" : Scope;
 
+            // инициализируем поле
+            KeyCloakInfo = new KeyCloakInfo()
+            {
+                AuthorizationUrl = $"http://{KeyCloakAddress}/realms/{realm_}/protocol/openid-connect/token",
+                ClientId = clientId_,
+                Scope = scope_
+            };
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            //AutomaticFilling = cbAutoFilling.Checked;
+        }
     }
 }

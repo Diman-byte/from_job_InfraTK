@@ -1,6 +1,6 @@
-﻿namespace ExcelReportingAddin
+﻿namespace ExcelReportingAddin.Forms_Windows
 {
-    partial class DataReadingForm
+    partial class EventsReadingForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DataReadingForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EventsReadingForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.listTags = new System.Windows.Forms.CheckedListBox();
+            this.tabPageAssets = new System.Windows.Forms.TabPage();
+            this.label19 = new System.Windows.Forms.Label();
+            this.SelectedAssetsCLB = new System.Windows.Forms.CheckedListBox();
             this.treeAssets = new System.Windows.Forms.TreeView();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.OperatorActionsCB = new System.Windows.Forms.CheckBox();
+            this.ViolationsHTP_CB = new System.Windows.Forms.CheckBox();
+            this.UnlockingKeysCB = new System.Windows.Forms.CheckBox();
+            this.AlarmsCB = new System.Windows.Forms.CheckBox();
+            this.NotificationsCB = new System.Windows.Forms.CheckBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.labelSlice = new System.Windows.Forms.Label();
-            this.comboBoxTypeSlice = new System.Windows.Forms.ComboBox();
-            this.txtSliceCount = new System.Windows.Forms.TextBox();
-            this.rbSlices = new System.Windows.Forms.RadioButton();
-            this.rbAllValues = new System.Windows.Forms.RadioButton();
             this.groupEndDate = new System.Windows.Forms.GroupBox();
             this.dateTimePickerStop = new System.Windows.Forms.DateTimePicker();
             this.SecEnd = new System.Windows.Forms.TextBox();
@@ -70,17 +72,25 @@
             this.StartDateAbs = new System.Windows.Forms.RadioButton();
             this.StartDataOtnosit = new System.Windows.Forms.RadioButton();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.chkShowTagDescriptions = new System.Windows.Forms.CheckBox();
-            this.chkShowTagNames = new System.Windows.Forms.CheckBox();
+            this.OperatorActionsTB = new System.Windows.Forms.TextBox();
+            this.ViolationsTB = new System.Windows.Forms.TextBox();
+            this.NotificationsTB = new System.Windows.Forms.TextBox();
+            this.AlarmsTB = new System.Windows.Forms.TextBox();
+            this.UnlockingKeysTB = new System.Windows.Forms.TextBox();
             this.txtDateTimeFormat = new System.Windows.Forms.TextBox();
-            this.txtSheetName = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.NameAtributsCB = new System.Windows.Forms.CheckBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.labelLoading = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.progressBarLoading = new System.Windows.Forms.ProgressBar();
-            this.LoadTagsButton = new System.Windows.Forms.Button();
-            this.cbAutoFillingData = new System.Windows.Forms.CheckBox();
+            this.labelLoading = new System.Windows.Forms.Label();
+            this.cbAutoFillingEvents = new System.Windows.Forms.CheckBox();
             this.tabControl1.SuspendLayout();
+            this.tabPageAssets.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.groupEndDate.SuspendLayout();
@@ -90,119 +100,132 @@
             // 
             // tabControl1
             // 
+            this.tabControl1.Controls.Add(this.tabPageAssets);
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(12, 12);
+            this.tabControl1.Location = new System.Drawing.Point(10, 11);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(837, 573);
+            this.tabControl1.Size = new System.Drawing.Size(656, 427);
             this.tabControl1.TabIndex = 0;
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
-            // tabPage1
+            // tabPageAssets
             // 
-            this.tabPage1.Controls.Add(this.listTags);
-            this.tabPage1.Controls.Add(this.treeAssets);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(829, 544);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Выбор активов/тегов";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            this.tabPageAssets.Controls.Add(this.label19);
+            this.tabPageAssets.Controls.Add(this.SelectedAssetsCLB);
+            this.tabPageAssets.Controls.Add(this.treeAssets);
+            this.tabPageAssets.Location = new System.Drawing.Point(4, 25);
+            this.tabPageAssets.Name = "tabPageAssets";
+            this.tabPageAssets.Size = new System.Drawing.Size(648, 398);
+            this.tabPageAssets.TabIndex = 3;
+            this.tabPageAssets.Text = "Изменить выбор";
+            this.tabPageAssets.UseVisualStyleBackColor = true;
             // 
-            // listTags
+            // label19
             // 
-            this.listTags.CheckOnClick = true;
-            this.listTags.FormattingEnabled = true;
-            this.listTags.Location = new System.Drawing.Point(415, 6);
-            this.listTags.Name = "listTags";
-            this.listTags.Size = new System.Drawing.Size(408, 531);
-            this.listTags.TabIndex = 2;
-            this.listTags.SelectedIndexChanged += new System.EventHandler(this.listTags_CheckedChanged);
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(350, 41);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(284, 16);
+            this.label19.TabIndex = 5;
+            this.label19.Text = "Отметьте галочкой необходимые объекты";
+            // 
+            // SelectedAssetsCLB
+            // 
+            this.SelectedAssetsCLB.FormattingEnabled = true;
+            this.SelectedAssetsCLB.Location = new System.Drawing.Point(353, 75);
+            this.SelectedAssetsCLB.Name = "SelectedAssetsCLB";
+            this.SelectedAssetsCLB.Size = new System.Drawing.Size(282, 191);
+            this.SelectedAssetsCLB.TabIndex = 4;
             // 
             // treeAssets
             // 
-            this.treeAssets.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.treeAssets.Location = new System.Drawing.Point(6, 6);
+            this.treeAssets.Location = new System.Drawing.Point(1, 3);
             this.treeAssets.Name = "treeAssets";
-            this.treeAssets.Size = new System.Drawing.Size(403, 532);
+            this.treeAssets.Size = new System.Drawing.Size(337, 392);
             this.treeAssets.TabIndex = 0;
-            this.treeAssets.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeAssets_AfterSelect);
+            this.treeAssets.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeAssets_AfterSelect_1);
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.OperatorActionsCB);
+            this.tabPage1.Controls.Add(this.ViolationsHTP_CB);
+            this.tabPage1.Controls.Add(this.UnlockingKeysCB);
+            this.tabPage1.Controls.Add(this.AlarmsCB);
+            this.tabPage1.Controls.Add(this.NotificationsCB);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(648, 398);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Выбор типа событий";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // OperatorActionsCB
+            // 
+            this.OperatorActionsCB.AutoSize = true;
+            this.OperatorActionsCB.Location = new System.Drawing.Point(65, 235);
+            this.OperatorActionsCB.Name = "OperatorActionsCB";
+            this.OperatorActionsCB.Size = new System.Drawing.Size(165, 20);
+            this.OperatorActionsCB.TabIndex = 4;
+            this.OperatorActionsCB.Text = "Действия оператора";
+            this.OperatorActionsCB.UseVisualStyleBackColor = true;
+            // 
+            // ViolationsHTP_CB
+            // 
+            this.ViolationsHTP_CB.AutoSize = true;
+            this.ViolationsHTP_CB.Location = new System.Drawing.Point(65, 181);
+            this.ViolationsHTP_CB.Name = "ViolationsHTP_CB";
+            this.ViolationsHTP_CB.Size = new System.Drawing.Size(134, 20);
+            this.ViolationsHTP_CB.TabIndex = 3;
+            this.ViolationsHTP_CB.Text = "Нарушения НТР";
+            this.ViolationsHTP_CB.UseVisualStyleBackColor = true;
+            // 
+            // UnlockingKeysCB
+            // 
+            this.UnlockingKeysCB.AutoSize = true;
+            this.UnlockingKeysCB.Location = new System.Drawing.Point(65, 130);
+            this.UnlockingKeysCB.Name = "UnlockingKeysCB";
+            this.UnlockingKeysCB.Size = new System.Drawing.Size(194, 20);
+            this.UnlockingKeysCB.TabIndex = 2;
+            this.UnlockingKeysCB.Text = "Деблокировочные ключи";
+            this.UnlockingKeysCB.UseVisualStyleBackColor = true;
+            // 
+            // AlarmsCB
+            // 
+            this.AlarmsCB.AutoSize = true;
+            this.AlarmsCB.Location = new System.Drawing.Point(65, 77);
+            this.AlarmsCB.Name = "AlarmsCB";
+            this.AlarmsCB.Size = new System.Drawing.Size(124, 20);
+            this.AlarmsCB.TabIndex = 1;
+            this.AlarmsCB.Text = "Сигнализации";
+            this.AlarmsCB.UseVisualStyleBackColor = true;
+            // 
+            // NotificationsCB
+            // 
+            this.NotificationsCB.AutoSize = true;
+            this.NotificationsCB.Checked = true;
+            this.NotificationsCB.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.NotificationsCB.Location = new System.Drawing.Point(65, 27);
+            this.NotificationsCB.Name = "NotificationsCB";
+            this.NotificationsCB.Size = new System.Drawing.Size(118, 20);
+            this.NotificationsCB.TabIndex = 0;
+            this.NotificationsCB.Text = "Уведомления";
+            this.NotificationsCB.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.labelSlice);
-            this.tabPage2.Controls.Add(this.comboBoxTypeSlice);
-            this.tabPage2.Controls.Add(this.txtSliceCount);
-            this.tabPage2.Controls.Add(this.rbSlices);
-            this.tabPage2.Controls.Add(this.rbAllValues);
             this.tabPage2.Controls.Add(this.groupEndDate);
             this.tabPage2.Controls.Add(this.groupStartDate);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(829, 544);
+            this.tabPage2.Size = new System.Drawing.Size(648, 398);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Выбор интервала";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // labelSlice
-            // 
-            this.labelSlice.AutoSize = true;
-            this.labelSlice.Location = new System.Drawing.Point(147, 320);
-            this.labelSlice.Name = "labelSlice";
-            this.labelSlice.Size = new System.Drawing.Size(74, 16);
-            this.labelSlice.TabIndex = 5;
-            this.labelSlice.Text = "Тип среза";
-            this.labelSlice.Visible = false;
-            this.labelSlice.Click += new System.EventHandler(this.label15_Click);
-            // 
-            // comboBoxTypeSlice
-            // 
-            this.comboBoxTypeSlice.Items.AddRange(new object[] {
-            "FirstPoint",
-            "LastPoint",
-            "MinMaxPoints"});
-            this.comboBoxTypeSlice.Location = new System.Drawing.Point(150, 343);
-            this.comboBoxTypeSlice.Name = "comboBoxTypeSlice";
-            this.comboBoxTypeSlice.Size = new System.Drawing.Size(139, 24);
-            this.comboBoxTypeSlice.TabIndex = 4;
-            this.comboBoxTypeSlice.Visible = false;
-            // 
-            // txtSliceCount
-            // 
-            this.txtSliceCount.Location = new System.Drawing.Point(232, 280);
-            this.txtSliceCount.Name = "txtSliceCount";
-            this.txtSliceCount.Size = new System.Drawing.Size(57, 22);
-            this.txtSliceCount.TabIndex = 3;
-            this.txtSliceCount.Text = "1000";
-            this.txtSliceCount.Visible = false;
-            // 
-            // rbSlices
-            // 
-            this.rbSlices.AutoSize = true;
-            this.rbSlices.Location = new System.Drawing.Point(150, 280);
-            this.rbSlices.Name = "rbSlices";
-            this.rbSlices.Size = new System.Drawing.Size(70, 20);
-            this.rbSlices.TabIndex = 2;
-            this.rbSlices.Text = "Срезы";
-            this.rbSlices.UseVisualStyleBackColor = true;
-            this.rbSlices.CheckedChanged += new System.EventHandler(this.rbSlices_CheckedChanged);
-            // 
-            // rbAllValues
-            // 
-            this.rbAllValues.AutoSize = true;
-            this.rbAllValues.Checked = true;
-            this.rbAllValues.Location = new System.Drawing.Point(26, 280);
-            this.rbAllValues.Name = "rbAllValues";
-            this.rbAllValues.Size = new System.Drawing.Size(118, 20);
-            this.rbAllValues.TabIndex = 2;
-            this.rbAllValues.TabStop = true;
-            this.rbAllValues.Text = "Все значения";
-            this.rbAllValues.UseVisualStyleBackColor = true;
-            this.rbAllValues.CheckedChanged += new System.EventHandler(this.rbAllValues_CheckedChanged);
             // 
             // groupEndDate
             // 
@@ -220,10 +243,10 @@
             this.groupEndDate.Controls.Add(this.label2);
             this.groupEndDate.Controls.Add(this.EndDateAbs);
             this.groupEndDate.Controls.Add(this.EndDataOtnosit);
-            this.groupEndDate.Location = new System.Drawing.Point(17, 139);
+            this.groupEndDate.Location = new System.Drawing.Point(16, 139);
             this.groupEndDate.Name = "groupEndDate";
             this.groupEndDate.Size = new System.Drawing.Size(636, 135);
-            this.groupEndDate.TabIndex = 1;
+            this.groupEndDate.TabIndex = 3;
             this.groupEndDate.TabStop = false;
             this.groupEndDate.Text = "Конечная дата";
             // 
@@ -379,13 +402,12 @@
             this.groupStartDate.Controls.Add(this.label1);
             this.groupStartDate.Controls.Add(this.StartDateAbs);
             this.groupStartDate.Controls.Add(this.StartDataOtnosit);
-            this.groupStartDate.Location = new System.Drawing.Point(17, 6);
+            this.groupStartDate.Location = new System.Drawing.Point(16, 6);
             this.groupStartDate.Name = "groupStartDate";
             this.groupStartDate.Size = new System.Drawing.Size(636, 127);
-            this.groupStartDate.TabIndex = 0;
+            this.groupStartDate.TabIndex = 2;
             this.groupStartDate.TabStop = false;
             this.groupStartDate.Text = "Начальная дата";
-            this.groupStartDate.Enter += new System.EventHandler(this.groupStartDate_Enter);
             // 
             // dateTimePickerStart
             // 
@@ -401,7 +423,6 @@
             this.SecStart.Size = new System.Drawing.Size(36, 22);
             this.SecStart.TabIndex = 5;
             this.SecStart.Text = "0";
-            this.SecStart.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // MinStart
             // 
@@ -410,7 +431,6 @@
             this.MinStart.Size = new System.Drawing.Size(36, 22);
             this.MinStart.TabIndex = 5;
             this.MinStart.Text = "0";
-            this.MinStart.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // HourStart
             // 
@@ -418,8 +438,7 @@
             this.HourStart.Name = "HourStart";
             this.HourStart.Size = new System.Drawing.Size(36, 22);
             this.HourStart.TabIndex = 5;
-            this.HourStart.Text = "1";
-            this.HourStart.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.HourStart.Text = "0";
             // 
             // DayStart
             // 
@@ -428,7 +447,6 @@
             this.DayStart.Size = new System.Drawing.Size(36, 22);
             this.DayStart.TabIndex = 5;
             this.DayStart.Text = "0";
-            this.DayStart.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label7
             // 
@@ -447,7 +465,6 @@
             this.label6.Size = new System.Drawing.Size(37, 16);
             this.label6.TabIndex = 4;
             this.label6.Text = "Мин.";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
@@ -457,7 +474,6 @@
             this.label5.Size = new System.Drawing.Size(40, 16);
             this.label5.TabIndex = 4;
             this.label5.Text = "Часы";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
@@ -531,133 +547,198 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.cbAutoFillingData);
-            this.tabPage3.Controls.Add(this.chkShowTagDescriptions);
-            this.tabPage3.Controls.Add(this.chkShowTagNames);
+            this.tabPage3.Controls.Add(this.cbAutoFillingEvents);
+            this.tabPage3.Controls.Add(this.OperatorActionsTB);
+            this.tabPage3.Controls.Add(this.ViolationsTB);
+            this.tabPage3.Controls.Add(this.NotificationsTB);
+            this.tabPage3.Controls.Add(this.AlarmsTB);
+            this.tabPage3.Controls.Add(this.UnlockingKeysTB);
             this.tabPage3.Controls.Add(this.txtDateTimeFormat);
-            this.tabPage3.Controls.Add(this.txtSheetName);
+            this.tabPage3.Controls.Add(this.label18);
+            this.tabPage3.Controls.Add(this.NameAtributsCB);
+            this.tabPage3.Controls.Add(this.label17);
+            this.tabPage3.Controls.Add(this.label16);
+            this.tabPage3.Controls.Add(this.label15);
             this.tabPage3.Controls.Add(this.label14);
             this.tabPage3.Controls.Add(this.label13);
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(829, 544);
+            this.tabPage3.Size = new System.Drawing.Size(648, 398);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Формат";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // chkShowTagDescriptions
+            // OperatorActionsTB
             // 
-            this.chkShowTagDescriptions.AutoSize = true;
-            this.chkShowTagDescriptions.Location = new System.Drawing.Point(85, 168);
-            this.chkShowTagDescriptions.Name = "chkShowTagDescriptions";
-            this.chkShowTagDescriptions.Size = new System.Drawing.Size(215, 20);
-            this.chkShowTagDescriptions.TabIndex = 3;
-            this.chkShowTagDescriptions.Text = "Отображать описание тегов";
-            this.chkShowTagDescriptions.UseVisualStyleBackColor = true;
+            this.OperatorActionsTB.Location = new System.Drawing.Point(393, 190);
+            this.OperatorActionsTB.Name = "OperatorActionsTB";
+            this.OperatorActionsTB.Size = new System.Drawing.Size(158, 22);
+            this.OperatorActionsTB.TabIndex = 12;
             // 
-            // chkShowTagNames
+            // ViolationsTB
             // 
-            this.chkShowTagNames.AutoSize = true;
-            this.chkShowTagNames.Checked = true;
-            this.chkShowTagNames.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkShowTagNames.Location = new System.Drawing.Point(85, 129);
-            this.chkShowTagNames.Name = "chkShowTagNames";
-            this.chkShowTagNames.Size = new System.Drawing.Size(193, 20);
-            this.chkShowTagNames.TabIndex = 2;
-            this.chkShowTagNames.Text = "Отображать имена тегов";
-            this.chkShowTagNames.UseVisualStyleBackColor = true;
+            this.ViolationsTB.Location = new System.Drawing.Point(393, 149);
+            this.ViolationsTB.Name = "ViolationsTB";
+            this.ViolationsTB.Size = new System.Drawing.Size(158, 22);
+            this.ViolationsTB.TabIndex = 11;
+            // 
+            // NotificationsTB
+            // 
+            this.NotificationsTB.Location = new System.Drawing.Point(393, 24);
+            this.NotificationsTB.Name = "NotificationsTB";
+            this.NotificationsTB.Size = new System.Drawing.Size(158, 22);
+            this.NotificationsTB.TabIndex = 10;
+            this.NotificationsTB.Text = "Notification";
+            // 
+            // AlarmsTB
+            // 
+            this.AlarmsTB.Location = new System.Drawing.Point(393, 63);
+            this.AlarmsTB.Name = "AlarmsTB";
+            this.AlarmsTB.Size = new System.Drawing.Size(158, 22);
+            this.AlarmsTB.TabIndex = 9;
+            this.AlarmsTB.Text = "Alarms";
+            // 
+            // UnlockingKeysTB
+            // 
+            this.UnlockingKeysTB.Location = new System.Drawing.Point(393, 109);
+            this.UnlockingKeysTB.Name = "UnlockingKeysTB";
+            this.UnlockingKeysTB.Size = new System.Drawing.Size(158, 22);
+            this.UnlockingKeysTB.TabIndex = 8;
+            this.UnlockingKeysTB.Text = "DK";
             // 
             // txtDateTimeFormat
             // 
-            this.txtDateTimeFormat.Location = new System.Drawing.Point(318, 77);
+            this.txtDateTimeFormat.Location = new System.Drawing.Point(393, 233);
             this.txtDateTimeFormat.Name = "txtDateTimeFormat";
             this.txtDateTimeFormat.Size = new System.Drawing.Size(158, 22);
-            this.txtDateTimeFormat.TabIndex = 1;
+            this.txtDateTimeFormat.TabIndex = 7;
             this.txtDateTimeFormat.Text = "dd.MM.yyyy HH:mm:ss";
+            this.txtDateTimeFormat.TextChanged += new System.EventHandler(this.txtDateTimeFormat_TextChanged);
             // 
-            // txtSheetName
+            // label18
             // 
-            this.txtSheetName.Location = new System.Drawing.Point(318, 40);
-            this.txtSheetName.Name = "txtSheetName";
-            this.txtSheetName.Size = new System.Drawing.Size(158, 22);
-            this.txtSheetName.TabIndex = 1;
-            this.txtSheetName.Text = "Data";
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(40, 233);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(164, 16);
+            this.label18.TabIndex = 6;
+            this.label18.Text = "Формат даты и времени";
+            this.label18.Click += new System.EventHandler(this.label18_Click);
+            // 
+            // NameAtributsCB
+            // 
+            this.NameAtributsCB.AutoSize = true;
+            this.NameAtributsCB.Checked = true;
+            this.NameAtributsCB.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.NameAtributsCB.Location = new System.Drawing.Point(42, 273);
+            this.NameAtributsCB.Name = "NameAtributsCB";
+            this.NameAtributsCB.Size = new System.Drawing.Size(226, 20);
+            this.NameAtributsCB.TabIndex = 5;
+            this.NameAtributsCB.Text = "Отображать имена атрибутов";
+            this.NameAtributsCB.UseVisualStyleBackColor = true;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(38, 193);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(313, 16);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "Имя страницы событий «Действия оператора» ";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(38, 152);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(282, 16);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "Имя страницы событий «Нарушения НТР» ";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(38, 109);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(342, 16);
+            this.label15.TabIndex = 2;
+            this.label15.Text = "Имя страницы событий «Деблокировочные ключи» ";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(53, 80);
+            this.label14.Location = new System.Drawing.Point(38, 66);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(164, 16);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "Формат даты и времени";
+            this.label14.Size = new System.Drawing.Size(272, 16);
+            this.label14.TabIndex = 1;
+            this.label14.Text = "Имя страницы событий «Сигнализации» ";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(53, 40);
+            this.label13.Location = new System.Drawing.Point(38, 27);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(240, 16);
+            this.label13.Size = new System.Drawing.Size(266, 16);
             this.label13.TabIndex = 0;
-            this.label13.Text = "Имя страницы для выгрузки данных";
+            this.label13.Text = "Имя страницы событий «Уведомления» ";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(503, 440);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(159, 35);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Получить";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // progressBarLoading
+            // 
+            this.progressBarLoading.Location = new System.Drawing.Point(285, 444);
+            this.progressBarLoading.Name = "progressBarLoading";
+            this.progressBarLoading.Size = new System.Drawing.Size(104, 25);
+            this.progressBarLoading.TabIndex = 2;
             // 
             // labelLoading
             // 
             this.labelLoading.AutoSize = true;
-            this.labelLoading.Location = new System.Drawing.Point(359, 605);
+            this.labelLoading.Location = new System.Drawing.Point(185, 450);
             this.labelLoading.Name = "labelLoading";
             this.labelLoading.Size = new System.Drawing.Size(78, 16);
-            this.labelLoading.TabIndex = 5;
+            this.labelLoading.TabIndex = 3;
             this.labelLoading.Text = "Загрузка...";
-            this.labelLoading.Visible = false;
+            this.labelLoading.Click += new System.EventHandler(this.label19_Click);
             // 
-            // progressBarLoading
+            // cbAutoFillingEvents
             // 
-            this.progressBarLoading.Location = new System.Drawing.Point(443, 607);
-            this.progressBarLoading.Name = "progressBarLoading";
-            this.progressBarLoading.Size = new System.Drawing.Size(85, 14);
-            this.progressBarLoading.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
-            this.progressBarLoading.TabIndex = 4;
-            this.progressBarLoading.Visible = false;
+            this.cbAutoFillingEvents.AutoSize = true;
+            this.cbAutoFillingEvents.Location = new System.Drawing.Point(41, 312);
+            this.cbAutoFillingEvents.Name = "cbAutoFillingEvents";
+            this.cbAutoFillingEvents.Size = new System.Drawing.Size(318, 36);
+            this.cbAutoFillingEvents.TabIndex = 19;
+            this.cbAutoFillingEvents.Text = "Автоматически заполнять отчет событиями\r\nпри открытии файла";
+            this.cbAutoFillingEvents.UseVisualStyleBackColor = true;
             // 
-            // LoadTagsButton
-            // 
-            this.LoadTagsButton.Location = new System.Drawing.Point(635, 587);
-            this.LoadTagsButton.Name = "LoadTagsButton";
-            this.LoadTagsButton.Size = new System.Drawing.Size(204, 36);
-            this.LoadTagsButton.TabIndex = 6;
-            this.LoadTagsButton.Text = "Загрузить данные";
-            this.LoadTagsButton.UseCompatibleTextRendering = true;
-            this.LoadTagsButton.UseVisualStyleBackColor = true;
-            this.LoadTagsButton.Click += new System.EventHandler(this.LoadTagsButton_Click);
-            // 
-            // cbAutoFillingData
-            // 
-            this.cbAutoFillingData.AutoSize = true;
-            this.cbAutoFillingData.Location = new System.Drawing.Point(85, 205);
-            this.cbAutoFillingData.Name = "cbAutoFillingData";
-            this.cbAutoFillingData.Size = new System.Drawing.Size(305, 36);
-            this.cbAutoFillingData.TabIndex = 20;
-            this.cbAutoFillingData.Text = "Автоматически заполнять отчет данными\r\nпри открытии файла";
-            this.cbAutoFillingData.UseVisualStyleBackColor = true;
-            // 
-            // DataReadingForm
+            // EventsReadingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(858, 630);
-            this.Controls.Add(this.LoadTagsButton);
+            this.ClientSize = new System.Drawing.Size(677, 482);
             this.Controls.Add(this.labelLoading);
             this.Controls.Add(this.progressBarLoading);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "DataReadingForm";
-            this.Text = "Чтение данных";
+            this.Name = "EventsReadingForm";
+            this.Text = "Чтение событий";
             this.tabControl1.ResumeLayout(false);
+            this.tabPageAssets.ResumeLayout(false);
+            this.tabPageAssets.PerformLayout();
             this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             this.groupEndDate.ResumeLayout(false);
             this.groupEndDate.PerformLayout();
             this.groupStartDate.ResumeLayout(false);
@@ -675,25 +756,13 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TreeView treeAssets;
-        private System.Windows.Forms.GroupBox groupStartDate;
+        private System.Windows.Forms.CheckBox ViolationsHTP_CB;
+        private System.Windows.Forms.CheckBox UnlockingKeysCB;
+        private System.Windows.Forms.CheckBox AlarmsCB;
+        private System.Windows.Forms.CheckBox NotificationsCB;
+        private System.Windows.Forms.CheckBox OperatorActionsCB;
         private System.Windows.Forms.GroupBox groupEndDate;
-        private System.Windows.Forms.RadioButton StartDataOtnosit;
-        private System.Windows.Forms.RadioButton StartDateAbs;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RadioButton EndDateAbs;
-        private System.Windows.Forms.RadioButton EndDataOtnosit;
-        private System.Windows.Forms.ComboBox StartSign;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox DayStart;
-        private System.Windows.Forms.TextBox SecStart;
-        private System.Windows.Forms.TextBox MinStart;
-        private System.Windows.Forms.TextBox HourStart;
+        private System.Windows.Forms.DateTimePicker dateTimePickerStop;
         private System.Windows.Forms.TextBox SecEnd;
         private System.Windows.Forms.TextBox MinEnd;
         private System.Windows.Forms.TextBox HourEnd;
@@ -704,23 +773,44 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ComboBox EndSign;
-        private System.Windows.Forms.RadioButton rbAllValues;
-        private System.Windows.Forms.RadioButton rbSlices;
-        private System.Windows.Forms.TextBox txtSliceCount;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.RadioButton EndDateAbs;
+        private System.Windows.Forms.RadioButton EndDataOtnosit;
+        private System.Windows.Forms.GroupBox groupStartDate;
+        private System.Windows.Forms.DateTimePicker dateTimePickerStart;
+        private System.Windows.Forms.TextBox SecStart;
+        private System.Windows.Forms.TextBox MinStart;
+        private System.Windows.Forms.TextBox HourStart;
+        private System.Windows.Forms.TextBox DayStart;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox StartSign;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RadioButton StartDateAbs;
+        private System.Windows.Forms.RadioButton StartDataOtnosit;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox txtSheetName;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.CheckBox NameAtributsCB;
         private System.Windows.Forms.TextBox txtDateTimeFormat;
-        private System.Windows.Forms.CheckBox chkShowTagNames;
-        private System.Windows.Forms.CheckBox chkShowTagDescriptions;
-        private System.Windows.Forms.CheckedListBox listTags;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox OperatorActionsTB;
+        private System.Windows.Forms.TextBox ViolationsTB;
+        private System.Windows.Forms.TextBox NotificationsTB;
+        private System.Windows.Forms.TextBox AlarmsTB;
+        private System.Windows.Forms.TextBox UnlockingKeysTB;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TabPage tabPageAssets;
         private System.Windows.Forms.ProgressBar progressBarLoading;
         private System.Windows.Forms.Label labelLoading;
-        private System.Windows.Forms.Button LoadTagsButton;
-        private System.Windows.Forms.DateTimePicker dateTimePickerStart;
-        private System.Windows.Forms.DateTimePicker dateTimePickerStop;
-        private System.Windows.Forms.ComboBox comboBoxTypeSlice;
-        private System.Windows.Forms.Label labelSlice;
-        private System.Windows.Forms.CheckBox cbAutoFillingData;
+        private System.Windows.Forms.TreeView treeAssets;
+        private System.Windows.Forms.CheckedListBox SelectedAssetsCLB;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.CheckBox cbAutoFillingEvents;
     }
 }

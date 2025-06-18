@@ -35,6 +35,9 @@ namespace ExcelReportingAddin
         // объект, который хранит параметры из вкладки "Формат
         private ConfigTabFormat _configTabFormat;
 
+        // поле, отвечающее за автоматический вывод
+        //public bool 
+
         public DataReadingForm()
         {
             InitializeComponent();
@@ -46,6 +49,19 @@ namespace ExcelReportingAddin
             // инициализируем 
             _selectedTagIds = new List<Guid>();
 
+
+
+            //_selectedTagIds = new List<Guid>
+            //{
+            //    //потом убрать
+            //    Guid.Parse("d5f03588-f002-4aa2-bc18-b95854e9a888")
+            //};
+            //_selectedAsset = Guid.Parse("1973d52a-af0e-426f-beaf-10936046aa0d");
+
+
+
+
+
             // Чтобы добавить обработчик события NodeMouseClick для TreeView
             // Подписываемся на событие NodeMouseDoubleClick для treeAssets
             treeAssets.NodeMouseClick += treeAssets_NodeMouseClick;
@@ -53,8 +69,8 @@ namespace ExcelReportingAddin
             this.FormBorderStyle = FormBorderStyle.FixedSingle; // Запрет изменения размера
             this.MaximizeBox = false; // Убираем кнопку максимизации
 
-            StartSign.SelectedIndex = 0; // выбираем по умолчанию первый элемент в ComboBox (знак + в относительном режиме)
-            EndSign.SelectedIndex = 0;
+            //StartSign.SelectedIndex = 0; // выбираем по умолчанию первый элемент в ComboBox (знак + в относительном режиме)
+            //EndSign.SelectedIndex = 0;
 
             listTags.ValueMember = "Id"; // Указывает, какое свойство объекта будет использоваться как скрытое значение для каждого элемента.
             listTags.DisplayMember = "Name"; // Указывает, какое свойство объекта, добавленного в ListBox, будет отображаться пользователю
@@ -294,7 +310,6 @@ namespace ExcelReportingAddin
                     }
                     listTags.Items.Add(tag);
                     listTags.SetItemCheckState(listTags.Items.IndexOf(tag), tag.IsSelected ? CheckState.Checked : CheckState.Unchecked);
-
                 }
             }
 
@@ -346,7 +361,7 @@ namespace ExcelReportingAddin
 
         private void StartSign_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            ParamStartSign();
         }
 
         private void rbSlices_CheckedChanged(object sender, EventArgs e)
@@ -420,7 +435,7 @@ namespace ExcelReportingAddin
         private DateTime StartDate()
         {
             // сейчас без проверок на ввод
-            
+
             // асболютный режим ввода даты
             if (StartDateAbs.Checked)
             {
@@ -430,14 +445,14 @@ namespace ExcelReportingAddin
                 int day = date.Day;
                 int hour = int.Parse(HourStart.Text);
                 int minute = int.Parse(MinStart.Text);
-                int second = int.Parse(SecStart.Text);  
-                
+                int second = int.Parse(SecStart.Text);
+
                 DateTime dateTime = new DateTime(year, month, day, hour, minute, second);
                 return dateTime;
             }
             // относительный
             else
-            {              
+            {
                 int day = int.Parse(DayStart.Text);
                 int hour = int.Parse(HourStart.Text);
                 int minute = int.Parse(MinStart.Text);
@@ -446,24 +461,79 @@ namespace ExcelReportingAddin
                 DateTime now = DateTime.Now;
                 DateTime res = DateTime.Now;
 
+                // если "Сейчас"
+                if (StartSign.SelectedItem.ToString() == "Сейчас")
+                {
+                    res = now;
+                }
+
+                // если "Текущая смена"
+                if (StartSign.SelectedItem.ToString() == "Текущая смена")
+                {
+                    // дневная смена
+                    if (now.Hour >= 8 && now.Hour <= 19)
+                    {
+                        res = DateTime.Today.AddHours(8);
+                    }
+                    else
+                    {
+                        // ночная смена
+                        res = DateTime.Today.AddHours(19);
+                    }
+                }
+
+                // если "Смена плюс"
+                if (StartSign.SelectedItem.ToString() == "Смена плюс")
+                {
+                    // дневная смена
+                    if (now.Hour >= 8 && now.Hour <= 19)
+                    {
+                        var res_1 = DateTime.Today.AddHours(8);
+                        res = res_1.AddDays(day).AddHours(hour).AddMinutes(minute).AddSeconds(second);
+                    }
+                    else
+                    {
+                        // ночная смена
+                        var res_1 = DateTime.Today.AddHours(19);
+                        res = res_1.AddDays(day).AddHours(hour).AddMinutes(minute).AddSeconds(second);
+                    }
+                }
+
+                // если "Смена минус"
+                if (StartSign.SelectedItem.ToString() == "Смена плюс")
+                {
+                    // дневная смена
+                    if (now.Hour >= 8 && now.Hour <= 19)
+                    {
+                        var res_1 = DateTime.Today.AddHours(8);
+                        res = res_1.AddDays(-day).AddHours(-hour).AddMinutes(-minute).AddSeconds(-second);
+                    }
+                    else
+                    {
+                        // ночная смена
+                        var res_1 = DateTime.Today.AddHours(19);
+                        res = res_1.AddDays(-day).AddHours(-hour).AddMinutes(-minute).AddSeconds(-second);
+                    }
+                }
+
                 // если "Сейчас плюс"
-                if (StartSign.SelectedIndex == 0)
+                if (StartSign.SelectedItem.ToString() == "Сейчас плюс")
                 {
                     res = now.AddDays(day).AddHours(hour).AddMinutes(minute).AddSeconds(second);
                 }
                 // если "Сейчас минус"
-                if (StartSign.SelectedIndex == 1)
+                if (StartSign.SelectedItem.ToString() == "Сейчас минус")
                 {
                     res = now.AddDays(-day).AddHours(-hour).AddMinutes(-minute).AddSeconds(-second);
                 }
                 // если "Сегодня плюс"
-                if (StartSign.SelectedIndex == 2)
+                if (StartSign.SelectedItem.ToString() == "Сегодня плюс")
                 {
                     DateTime tmp = DateTime.Today;
                     res = tmp.AddDays(day).AddHours(hour).AddMinutes(minute).AddSeconds(second);
                 }
                 // если "Сегодня минус"
-                if (StartSign.SelectedIndex == 3)
+                if (StartSign.SelectedItem.ToString() == "Сегодня минус")
                 {
                     DateTime tmp = DateTime.Today;
                     res = tmp.AddDays(-day).AddHours(-hour).AddMinutes(-minute).AddSeconds(-second);
@@ -476,10 +546,10 @@ namespace ExcelReportingAddin
         /// <summary>
         /// Метод получения получения даты конца диапазона с окна
         /// </summary>
-        /// <returns>Объект времени конца диапазона</returns>
+        /// <returns> Объект времени конца диапазона </returns>
         private DateTime EndDate()
         {
-            if(EndDateAbs.Checked)
+            if (EndDateAbs.Checked)
             {
                 DateTime date = dateTimePickerStop.Value;
                 int year = date.Year;
@@ -503,24 +573,79 @@ namespace ExcelReportingAddin
                 DateTime now = DateTime.Now;
                 DateTime res = DateTime.Now;
 
+                // если "Сейчас"
+                if (StartSign.SelectedItem.ToString() == "Сейчас")
+                {
+                    res = now;
+                }
+
+                // если "Текущая смена"
+                if (StartSign.SelectedItem.ToString() == "Текущая смена")
+                {
+                    // дневная смена
+                    if (now.Hour >= 8 && now.Hour <= 19)
+                    {
+                        res = DateTime.Today.AddHours(19);
+                    }
+                    else
+                    {
+                        // ночная смена
+                        res = DateTime.Today.AddDays(1).AddHours(8);
+                    }
+                }
+
+                // если "Смена плюс"
+                if (StartSign.SelectedItem.ToString() == "Смена плюс")
+                {
+                    // дневная смена
+                    if (now.Hour >= 8 && now.Hour <= 19)
+                    {
+                        var res_1 = DateTime.Today.AddHours(19);
+                        res = res_1.AddDays(day).AddHours(hour).AddMinutes(minute).AddSeconds(second);
+                    }
+                    else
+                    {
+                        // ночная смена
+                        var res_1 = DateTime.Today.AddDays(1).AddHours(8);
+                        res = res_1.AddDays(day).AddHours(hour).AddMinutes(minute).AddSeconds(second);
+                    }
+                }
+
+                // если "Смена минус"
+                if (StartSign.SelectedItem.ToString() == "Смена плюс")
+                {
+                    // дневная смена
+                    if (now.Hour >= 8 && now.Hour <= 19)
+                    {
+                        var res_1 = DateTime.Today.AddHours(19);
+                        res = res_1.AddDays(-day).AddHours(-hour).AddMinutes(-minute).AddSeconds(-second);
+                    }
+                    else
+                    {
+                        // ночная смена
+                        var res_1 = DateTime.Today.AddDays(1).AddHours(8);
+                        res = res_1.AddDays(-day).AddHours(-hour).AddMinutes(-minute).AddSeconds(-second);
+                    }
+                }
+
                 // если "Сейчас минус"
-                if (EndSign.SelectedIndex == 1)
+                if (EndSign.SelectedItem.ToString() == "Сейчас минус")
                 {
                     res = now.AddDays(-day).AddHours(-hour).AddMinutes(-minute).AddSeconds(-second);
                 }
                 // если "Сейчас плюс"
-                if (EndSign.SelectedIndex == 0)
+                if (EndSign.SelectedItem.ToString() == "Сейчас плюс")
                 {
                     res = now.AddDays(day).AddHours(hour).AddMinutes(minute).AddSeconds(second);
                 }
                 // если "Сегодня плюс"
-                if (EndSign.SelectedIndex == 2)
+                if (EndSign.SelectedItem.ToString() == "Сегодня плюс")
                 {
                     DateTime tmp = DateTime.Today;
                     res = tmp.AddDays(day).AddHours(hour).AddMinutes(minute).AddSeconds(second);
                 }
                 // если "Сегодня минус"
-                if (EndSign.SelectedIndex == 3)
+                if (EndSign.SelectedItem.ToString() == "Сегодня минус")
                 {
                     DateTime tmp = DateTime.Today;
                     res = tmp.AddDays(-day).AddHours(-hour).AddMinutes(-minute).AddSeconds(-second);
@@ -530,33 +655,46 @@ namespace ExcelReportingAddin
             }
         }
 
-        private async void LoadTagsButton_Click(object sender, EventArgs e)
+        private void LoadTagsButton_Click(object sender, EventArgs e)
+        {
+             GenerateReportData();
+        }
+
+        public async void GenerateReportData()
         {
             ShowLoadingIndicator();
+
+            var setForm = new SettingsForm();
+            if (!setForm.CheckConnection())
+            {
+                HideLoadingIndicator();
+                return;
+            }
+
 
             DateTime startDate = StartDate();
             DateTime endDate = EndDate();
 
-            if(startDate > endDate)
+            if (startDate > endDate)
             {
-                MessageBox.Show("Время начала диапазона должно быть меньше времени конца");
+                MessageBox.Show("Время начала диапазона должно быть меньше времени конца", "Загрузка данных");
                 HideLoadingIndicator();
                 return;
             }
 
             if (_selectedTagIds.Count == 0)
             {
-                MessageBox.Show("Выберите теги и повторите заново");
+                MessageBox.Show("Выберите теги для выгрузки данных и повторите заново", "Загрузка данных");
                 HideLoadingIndicator();
                 return;
             }
 
-            if(_selectedAsset == Guid.Empty)
+            if (_selectedAsset == Guid.Empty)
             {
-                MessageBox.Show("Выберите актив и повторите заново");
+                MessageBox.Show("Выберите актив для выгрузки данных и повторите заново", "Загрузка данных");
                 HideLoadingIndicator();
                 return;
-            }            
+            }
 
             // вызываем метод сохранения конфиг файла при нажатии кнопки
             SaveConfig();
@@ -574,7 +712,8 @@ namespace ExcelReportingAddin
                 // если выбрана кнопка "Все значения"
                 list_tags_val = await _dataServerClient.GetTagsHistoricalData(_selectedAsset, _selectedTagIds, startDate, endDate);
             }
-            if(rbSlices.Checked) {
+            if (rbSlices.Checked)
+            {
                 // если выбрана кнопка "Срезы"
                 int pointsAmount = int.Parse(txtSliceCount.Text);
                 string sliceType = comboBoxTypeSlice.SelectedItem.ToString();
@@ -599,34 +738,35 @@ namespace ExcelReportingAddin
                 // Через Globals.ThisAddIn можно обращаться к методам и данным, определённым в классе ThisAddIn
 
                 // Globals.ThisAddIn создается автоматически при запуске надстройки, обеспечивая единый доступ к
-                // текущему экземпляру класса ThisAddIn.
+                // текущему экземпляру класса ThisAddIn
             }
             else
             {
-                MessageBox.Show("Ошибка загрузки исторических данных (возможно теги за выбранный интервал отсутствуют)");
+                MessageBox.Show("Ошибка загрузки исторических данных (возможно теги за выбранный интервал отсутствуют)", "Загрузка данных");
                 HideLoadingIndicator();
                 return;
-            }         
+            }
 
             HideLoadingIndicator();
-           
         }
 
         // когда выбрана радио кнопка "Относительного текущего"
         private void StartDataOtnosit_CheckedChanged(object sender, EventArgs e)
         {
             UpdateStartDateInputControls();
+            ParamStartSign();
         }
 
         // когда выбрана радио кнопка "Абсолютное"
         private void StartDateAbs_CheckedChanged(object sender, EventArgs e)
         {
             UpdateStartDateInputControls();
+            
         }
 
         private void UpdateStartDateInputControls()
         {
-            if(StartDataOtnosit.Checked) // когда выбрана радио кнопка "Относительного текущего"
+            if (StartDataOtnosit.Checked) // когда выбрана радио кнопка "Относительного текущего"
             {
                 label4.Visible = true;
                 StartSign.Visible = true;
@@ -641,8 +781,16 @@ namespace ExcelReportingAddin
                 DayStart.Visible = false;
 
                 dateTimePickerStart.Visible = true;
-            }
 
+                label5.Visible = true;
+                label6.Visible = true;
+                label7.Visible = true;
+
+                HourStart.Visible = true;
+                MinStart.Visible = true;
+                SecStart.Visible = true;
+
+            }
         }
 
         private void UpdateStopDateInputControls()
@@ -662,12 +810,89 @@ namespace ExcelReportingAddin
                 DayEnd.Visible = false;
 
                 dateTimePickerStop.Visible = true;
+
+                label8.Visible = true;
+                label9.Visible = true;
+                label10.Visible = true;
+
+                HourEnd.Visible = true;
+                MinEnd.Visible = true;
+                SecEnd.Visible = true;
             }
+        }
+
+        private void ParamStartSign()
+        {
+            // сейчас, текущая смена
+            if (StartDataOtnosit.Checked && (StartSign.SelectedItem.ToString() == "Сейчас" || StartSign.SelectedItem.ToString() == "Текущая смена"))
+            {
+                label4.Visible = false;
+                label5.Visible = false;
+                label6.Visible = false;
+                label7.Visible = false;
+
+                DayStart.Visible = false;
+                HourStart.Visible = false;
+                MinStart.Visible = false;
+                SecStart.Visible = false;
+            }
+
+            // Смена плюс, Смена , Сейчас плюс, Сейчас минус, Сегодня плюс, Сегодня минус
+            if (StartDataOtnosit.Checked && (StartSign.SelectedItem.ToString() == "Смена плюс" || StartSign.SelectedItem.ToString() == "Смена минус" ||
+                StartSign.SelectedItem.ToString() == "Сейчас плюс" || StartSign.SelectedItem.ToString() == "Сейчас минус" ||
+                    StartSign.SelectedItem.ToString() == "Сегодня плюс" || StartSign.SelectedItem.ToString() == "Сегодня минус"))
+            {
+                label4.Visible = true;
+                label5.Visible = true;
+                label6.Visible = true;
+                label7.Visible = true;
+
+                DayStart.Visible = true;
+                HourStart.Visible = true;
+                MinStart.Visible = true;
+                SecStart.Visible = true;
+            }
+
+        }
+
+        private void ParamEndSign()
+        {
+            // сейчас, текущая смена
+            if (EndSign.SelectedItem.ToString() == "Сейчас" || EndSign.SelectedItem.ToString() == "Текущая смена")
+            {
+                label8.Visible = false;
+                label9.Visible = false;
+                label10.Visible = false;
+                label11.Visible = false;
+
+                DayEnd.Visible = false;
+                HourEnd.Visible = false;
+                MinEnd.Visible = false;
+                SecEnd.Visible = false;
+            }
+
+            // Смена плюс, Смена , Сейчас плюс, Сейчас минус, Сегодня плюс, Сегодня минус
+            if (EndSign.SelectedItem.ToString() == "Смена плюс" || EndSign.SelectedItem.ToString() == "Смена минус" ||
+                EndSign.SelectedItem.ToString() == "Сейчас плюс" || EndSign.SelectedItem.ToString() == "Сейчас минус" ||
+                    EndSign.SelectedItem.ToString() == "Сегодня плюс" || EndSign.SelectedItem.ToString() == "Сегодня минус")
+            {
+                label8.Visible = true;
+                label9.Visible = true;
+                label10.Visible = true;
+                label11.Visible = true;
+
+                DayEnd.Visible = true;
+                HourEnd.Visible = true;
+                MinEnd.Visible = true;
+                SecEnd.Visible = true;
+            }
+
         }
 
         private void EndDataOtnosit_CheckedChanged(object sender, EventArgs e)
         {
             UpdateStopDateInputControls();
+            ParamEndSign();
         }
 
         private void EndDateAbs_CheckedChanged(object sender, EventArgs e)
@@ -706,7 +931,7 @@ namespace ExcelReportingAddin
         /// </summary>
         private void LoadConfig()
         {
-            if(File.Exists(_configFilePath))
+            if(File.Exists(_configFilePath) && File.ReadAllText(_configFilePath) != "{}")
             {
                 string json = File.ReadAllText(_configFilePath);
                 _configReadData = JsonConvert.DeserializeObject<ConfigReadData>(json);
@@ -714,6 +939,10 @@ namespace ExcelReportingAddin
             else
             {
                 _configReadData = new ConfigReadData();
+
+                //задаю по умолчанию параметры начала интервала как минус 1 день
+                _configReadData.TimeSettingsStart.Sign = "Сейчас минус";
+                _configReadData.TimeSettingsStart.RelativeOffset.Days = 1;
             }
 
             ApplyConfigToUI();
@@ -729,12 +958,15 @@ namespace ExcelReportingAddin
                 _selectedTagIds.Add(tag);
             }
 
+            _selectedAsset = _configReadData.SelectedAsset;
+
             // работа с началом диапазона
             string modeStart = _configReadData.TimeSettingsStart.Mode;
             if (modeStart == "Relative")
             {
                 StartDataOtnosit.Checked = true;
-                StartSign.SelectedIndex = _configReadData.TimeSettingsStart.IndexSign; // по индексу 0 в ComboBox "Сейчас плюс" и тд
+                StartSign.SelectedItem = _configReadData.TimeSettingsStart.Sign;
+
                 DayStart.Text = _configReadData.TimeSettingsStart.RelativeOffset.Days.ToString();
                 HourStart.Text = _configReadData.TimeSettingsStart.RelativeOffset.Hours.ToString();
                 MinStart.Text = _configReadData.TimeSettingsStart.RelativeOffset.Minutes.ToString();
@@ -754,7 +986,7 @@ namespace ExcelReportingAddin
             if (modeEnd == "Relative")
             {
                 EndDataOtnosit.Checked = true;
-                EndSign.SelectedIndex = _configReadData.TimeSettingsEnd.IndexSign;
+                EndSign.SelectedItem = _configReadData.TimeSettingsEnd.Sign;
                 DayEnd.Text = _configReadData.TimeSettingsEnd.RelativeOffset.Days.ToString();
                 HourEnd.Text = _configReadData.TimeSettingsEnd.RelativeOffset.Hours.ToString();
                 MinEnd.Text = _configReadData.TimeSettingsEnd.RelativeOffset.Minutes.ToString();
@@ -787,6 +1019,10 @@ namespace ExcelReportingAddin
             txtDateTimeFormat.Text = _configReadData.TabFormat.Format;
             chkShowTagNames.Checked = _configReadData.TabFormat.IsDisplayTagNames;
             chkShowTagDescriptions.Checked = _configReadData.TabFormat.IsDisplayTagDescription;
+            cbAutoFillingData.Checked = _configReadData.TabFormat.AutoFillingData;
+
+            Properties.Settings.Default.RunOnOpenData = cbAutoFillingData.Checked;
+            Properties.Settings.Default.Save();
         }
 
         /// <summary>
@@ -799,10 +1035,12 @@ namespace ExcelReportingAddin
             // добавляю выбранные теги в конфигурацию
             _configReadData.SelectedTagIds.AddRange(_selectedTagIds);
 
+            _configReadData.SelectedAsset = _selectedAsset;
+
             // работа с началом диапазона
             _configReadData.TimeSettingsStart.Mode = StartDataOtnosit.Checked ? "Relative" : "Absolute";
             if (StartDataOtnosit.Checked) {
-                _configReadData.TimeSettingsStart.IndexSign = StartSign.SelectedIndex;
+                _configReadData.TimeSettingsStart.Sign = StartSign.SelectedItem.ToString();
                 _configReadData.TimeSettingsStart.RelativeOffset.Days = int.Parse(DayStart.Text);
                 _configReadData.TimeSettingsStart.RelativeOffset.Hours = int.Parse(HourStart.Text);
                 _configReadData.TimeSettingsStart.RelativeOffset.Minutes = int.Parse(MinStart.Text);
@@ -826,7 +1064,7 @@ namespace ExcelReportingAddin
             _configReadData.TimeSettingsEnd.Mode = EndDataOtnosit.Checked ? "Relative" : "Absolute";
             if (EndDataOtnosit.Checked)
             {
-                _configReadData.TimeSettingsEnd.IndexSign = EndSign.SelectedIndex;
+                _configReadData.TimeSettingsEnd.Sign = EndSign.SelectedItem.ToString();
                 _configReadData.TimeSettingsEnd.RelativeOffset.Days = int.Parse(DayEnd.Text);
                 _configReadData.TimeSettingsEnd.RelativeOffset.Hours = int.Parse(HourEnd.Text);
                 _configReadData.TimeSettingsEnd.RelativeOffset.Minutes = int.Parse(MinEnd.Text);
@@ -863,6 +1101,7 @@ namespace ExcelReportingAddin
             _configReadData.TabFormat.Format = txtDateTimeFormat.Text;
             _configReadData.TabFormat.IsDisplayTagNames = chkShowTagNames.Checked;
             _configReadData.TabFormat.IsDisplayTagDescription = chkShowTagDescriptions.Checked;
+            _configReadData.TabFormat.AutoFillingData = cbAutoFillingData.Checked;
 
             // Сериализуем в JSON и записываем в файл
             string json = JsonConvert.SerializeObject(_configReadData, Formatting.Indented);
@@ -937,6 +1176,11 @@ namespace ExcelReportingAddin
                 
             _configTabFormat.IsDisplayTagNames = chkShowTagNames.Checked;
             _configTabFormat.IsDisplayTagDescription = chkShowTagDescriptions.Checked;
+        }
+
+        private void EndSign_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ParamEndSign();
         }
     }
 }
